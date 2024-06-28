@@ -3,20 +3,20 @@ title: 소개 [!DNL Experience Manager] 데스크탑 앱
 description: 사용 방법 알아보기 [!DNL Adobe Experience Manager] 을 사용할 때 크리에이티브 사용자를 위한 자산 관리 워크플로우를 최적화하기 위한 데스크탑 앱 [!DNL Adobe Experience Manager Assets] 데스크탑에서 직접 액세스.
 role: User, Admin, Leader
 exl-id: 5da36ac5-ab5b-4f8d-b446-ebe2360ec464
-source-git-commit: df5283f6bef6adbb007bf93c6dabb3b12e430f58
+source-git-commit: 1c7437786a50eeafa884ce92b745f3438b2d2b88
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 61%
+source-wordcount: '608'
+ht-degree: 39%
 
 ---
 
 # [!DNL Adobe Experience Manager] 데스크탑 앱 개요 {#overview-v2}
 
-Adobe는 LOB(Line of Business) 사용자와 크리에이티브 사용자의 생산성을 높일 수 있도록 전체 솔루션에 연결된 워크플로우를 제공합니다. 다음 [!DNL Adobe Experience Manager] 데스크탑 앱은 저장소와 데스크탑 애플리케이션(Adobe 및 서드파티 포함)을 연결하여 리소스를 신속하게 이용하고 워크플로우를 간소화합니다. 이렇게 시간을 절약하고 노력을 줄이면 의 에셋으로 작업하는 사용자의 효율성이 향상됩니다. [!DNL Adobe Experience Manager] 데스크탑 워크플로에서
+Adobe는 LOB(Line of Business) 사용자와 크리에이티브 사용자의 생산성을 높일 수 있도록 전체 솔루션에 연결된 워크플로우를 제공합니다. 다음 [!DNL Adobe Experience Manager] 데스크탑 앱은 저장소와 데스크탑 애플리케이션(Adobe 및 서드파티 포함)을 연결하여 리소스를 신속하게 이용하고 워크플로우를 간소화합니다. 이렇게 시간을 절약하고 노력을 줄이면 의 에셋으로 작업하는 사용자의 효율성을 향상시킬 수 있습니다. [!DNL Adobe Experience Manager] 데스크탑 워크플로에서
 
-앱을 사용하여 내 에셋 [!DNL Experience Manager Assets] 로컬 데스크탑에서 쉽게 액세스할 수 있으며 모든 데스크탑 애플리케이션에서 사용할 수 있습니다. 원하는 데스크탑 애플리케이션에서 자산을 열고 편집할 수 있습니다. 로컬 편집은에서 사용할 수 있습니다. [!DNL Experience Manager] 변경 사항 업로드를 선택하는 경우에만 에셋의 새 버전으로, 이를 통해 데스크탑에서 진행 중인 에셋 편집을 효율적으로 처리할 수 있습니다. 앱은 에셋 및 중첩된 폴더를에 업로드할 수 있습니다. [!DNL Experience Manager], 저장소에 새 콘텐츠를 추가하는 작업을 간소화합니다.
+앱을 사용하여 내 에셋 [!DNL Experience Manager Assets] 로컬 데스크탑에서 쉽게 액세스할 수 있으며 모든 데스크탑 애플리케이션에서 사용할 수 있습니다. 원하는 데스크탑 애플리케이션에서 자산을 열고 편집할 수 있습니다. 로컬 편집 내용은에 새 버전으로 저장됩니다. [!DNL Experience Manager] 변경 사항을 업로드할 때만 데스크탑에서 진행 중인 효율적인 편집을 활성화합니다. 앱은 에셋 및 중첩된 폴더를에 업로드할 수 있습니다. [!DNL Experience Manager], 저장소에 새 콘텐츠를 추가하는 작업을 간소화합니다.
 
-이러한 통합을 통해 조직에서 다양한 역할이 의 자산을 중앙에서 관리할 수 있습니다. [!DNL Experience Manager Assets]. 마케터와 비즈니스 사용자가 브랜딩과 라이센싱을 포함한 다양한 표준 준수를 확보할 수 있습니다. Adobe Photoshop, Illustrator 및 InDesign의 자산으로 작업하는 전용 [Adobe Asset Link](https://www.adobe.com/kr/marketing/experience-manager-assets/adobe-asset-link.html) 도구가 있는 크리에이티브 사용자도 Creative Cloud와 기타 기본 애플리케이션에서 데스크탑의 자산에 액세스할 수 있습니다.
+이러한 통합을 통해 조직에서 다양한 역할이 의 자산을 중앙에서 관리할 수 있습니다. [!DNL Experience Manager Assets]. 마케터와 비즈니스 사용자가 브랜딩과 라이센싱을 포함한 다양한 표준 준수를 확보할 수 있습니다. 전용 을 사용하는 크리에이티브 사용자 [Adobe 에셋 링크](https://business.adobe.com/products/experience-manager/assets/adobe-asset-link.html) 도구는 Adobe Photoshop, Illustrator 및 InDesign의 자산에 액세스할 수 있으며 Creative Cloud 및 기타 기본 애플리케이션에서 데스크탑의 자산에 액세스할 수도 있습니다.
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ Adobe는 LOB(Line of Business) 사용자와 크리에이티브 사용자의 생�
 | 데스크탑 앱을 사용하신 적이 있습니까? 업그레이드하여 원활하게 전환하시겠습니까? | [이전 버전에서 업그레이드](install-upgrade.md#upgrade-from-previous-version) |
 | 시작하여 실행 중입니다. 기본 환경 설정을 조정하시겠습니까? | [앱 설치 및 구성](install-upgrade.md) |
 | 찾아보기, 검색, 편집, 업로드, 충돌 해결, 일괄 작업 등에 사용하는 방법을 알아봅니다. | [사용 [!DNL Experience Manager] 데스크탑 앱](using.md) |
-| 문제가 발생했습니까? 문제 해결 도움말이 필요하십니까? | [ [!DNL Experience Manager]  데스크탑 앱 문제 해결](troubleshoot.md) |
+| 문제가 발생했습니까? | [문제 해결 [!DNL Experience Manager] 데스크탑 앱](troubleshoot.md) |
 
 ## 앱의 새로운 기능 {#whats-new-v2}
 
@@ -39,13 +39,13 @@ Adobe는 LOB(Line of Business) 사용자와 크리에이티브 사용자의 생�
 
 새 앱은 사용자 경험을 상당히 개선하는 동시에 이전과 동일한 사용 사례를 제공합니다. 다음은 최상위 개선 사항입니다.
 
-* 사용자가 Mac Finder 또는 Windows 탐색기를 사용하여 가상 네트워크 공유를 표시하는 대신 내장된 브라우저에서 앱 내 검색 및 탐색을 통해 자산을 찾습니다.
+* 사용자는 앱의 기본 제공 브라우저 내에서 탐색 및 검색하여 자산을 검색합니다. 이렇게 하면 가상 네트워크 공유를 표시하기 위해 Mac Finder 또는 Windows 탐색기를 사용할 필요가 없습니다.
 * 사용자가 사용할 수 있는 작업에 대한 지침을 지웁니다.
 * 대역폭 사용이 줄어 성능이 개선됩니다. 원본 이진 파일은 필요한 경우에만 다운로드됩니다. 자산 탐색 및 검색의 경우 작은 축소판만 전송됩니다.
 * 일괄 업로드와 같은 일괄 작업에 최적화되었습니다.
 
 다음 그림에 새 앱의 기본 사용 사례와 향상된 기능이 고객 여정과 매핑되어 있습니다.
 
-![[!DNL Experience Manager] 데스크탑 앱의 새로운 기능](assets/aem_desktop_app_usecases_v2.png)
+![의 새로운 기능 [!DNL Experience Manager] 데스크탑 앱](assets/aem_desktop_app_usecases_v2.png)
 
-데스크탑 앱에서는 사용자가 위에 언급된 모든 사용 사례를 앱 내에서 바로 달성할 수 있습니다. 필요하면 웹 인터페이스에서 자산 검색을 수행한 다음 앱에 컨트롤을 전달하여 자산을 열고 편집할 수도 있습니다.
+데스크탑 앱을 사용하면 위에서 언급한 모든 사용 사례를 완수할 수 있습니다. 필요한 경우 웹 인터페이스에서 자산 검색을 수행한 다음 앱에 컨트롤을 전달하여 자산을 열고 편집할 수도 있습니다.

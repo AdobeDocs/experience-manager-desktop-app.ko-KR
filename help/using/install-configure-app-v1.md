@@ -2,22 +2,22 @@
 title: 데스크탑 앱 v1.10 설치 및 구성
 description: 설치 및 구성 [!DNL Experience Manager] 작업할 데스크탑 앱 버전 1.10 [!DNL Assets] 서버에 자산을 매핑하여 데스크탑의 드라이브로 마운트합니다.
 exl-id: 7f3bdfb1-d345-4e48-b020-6e06531f46f2
-source-git-commit: df5283f6bef6adbb007bf93c6dabb3b12e430f58
+source-git-commit: 1c7437786a50eeafa884ce92b745f3438b2d2b88
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '884'
 ht-degree: 0%
 
 ---
 
 # 설치 및 구성 [!DNL Experience Manager] 데스크탑 앱 v1.10 {#install-and-configure-aem-desktop-app}
 
-사용 [!DNL Experience Manager] 데스크탑 앱, 내의 자산 [!DNL Experience Manager] 로컬 데스크탑에서 쉽게 액세스할 수 있으며 모든 데스크탑 애플리케이션에서 사용할 수 있습니다. 자산은 Mac Finder 또는 Windows 탐색기에서 쉽게 볼 수 있고 데스크탑 애플리케이션에서 열려 로컬로 변경될 수 있습니다. 변경 사항은 다시 [!DNL Experience Manager] 를 업로드하고 저장소에 새 버전이 만들어지는 경우.
+사용 [!DNL Experience Manager] 데스크탑 앱, 내의 자산 [!DNL Experience Manager] 로컬 데스크탑에서 쉽게 액세스할 수 있으며 모든 데스크탑 애플리케이션에서 사용할 수 있습니다. Assets은 Mac Finder 또는 Windows 탐색기에서 볼 수 있고 데스크탑 앱에서 편집되고 변경 사항이 다음에 다시 저장됩니다 [!DNL Experience Manager]를 클릭하여 업로드할 때 새 버전을 생성합니다.
 
-이러한 통합을 통해 조직의 다양한 역할이 Assets에서 자산을 중앙에서 관리하고 Creative Cloud 및 기타 애플리케이션에서 액세스할 수 있으며 브랜딩을 비롯한 다양한 표준을 쉽게 준수할 수 있습니다.
+이 통합을 통해 다양한 역할이 Assets의 조직 내에서 자산을 중앙에서 관리하고 Creative Cloud 및 기타 애플리케이션에서 액세스하며 브랜딩을 비롯한 다양한 표준을 쉽게 준수할 수 있습니다.
 
-사용 [!DNL Experience Manager] 데스크탑 앱,
+을(를) 사용하려면 [!DNL Experience Manager] 데스크탑 앱,
 
-* 다음을 확인합니다. [!DNL Experience Manager] 서버 버전은 다음에서 지원합니다. [!DNL Experience Manager] 데스크탑 앱입니다. 다음을 참조하십시오. [호환성 매트릭스](release-notes-of-v1.md#compatibilitymatrix).
+* 다음을 확인하십시오. [!DNL Experience Manager] 서버 버전은 [!DNL Experience Manager] 데스크탑 앱입니다. 다음을 참조하십시오. [호환성 매트릭스](release-notes-of-v1.md#compatibilitymatrix).
 
 * 애플리케이션을 다운로드하여 설치합니다.
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 두 번째 단계에서는 데스크탑 앱이에서 업데이트된 파일을 [!DNL Experience Manager] 미리 정의된 지연(예: 30초) 이후의 서버. 이 작업은 백그라운드에서 수행됩니다. 업로드 작업의 상태를 보려면 에셋 상태 보기 옵션을 사용하십시오.
 
-1. 에셋을 에셋에 업로드합니다.
+1. Assets에 에셋을 업로드합니다.
 
 1. 다음을 클릭합니다. [!DNL Experience Manager] 도구 모음의 데스크탑 앱 아이콘
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 >
 >[!DNL Experience Manager] 데스크탑 앱은 최대 40GB의 자산을 처리할 수 있습니다.
 
-## 에 연결 [!DNL Experience Manager] dispatcher 뒤에 있는 인스턴스 {#connect-to-an-aem-instance-behind-a-dispatcher}
+## 에 연결 [!DNL Experience Manager] Dispatcher 뒤의 인스턴스 {#connect-to-an-aem-instance-behind-a-dispatcher}
 
 Assets API의 복사 및 이동 메서드를 사용하려면 다음 추가 헤더를 에 전달해야 합니다 [!DNL Experience Manager]:
 
@@ -61,13 +61,13 @@ Assets API의 복사 및 이동 메서드를 사용하려면 다음 추가 헤�
 * X-깊이
 * X-덮어쓰기
 
-[!DNL Experience Manager] 데스크탑이에 연결 [!DNL Experience Manager] 기본 포트를 포함하는 URL을 사용합니다. 따라서 `virtualhosts` dispatcher 구성의 설정에는 기본 포트 번호가 포함되어야 합니다. 자세한 내용은 `virtualhosts` 구성, 참조 [가상 호스트 식별](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#identifying-virtual-hosts-virtualhosts).
+[!DNL Experience Manager] 데스크탑이에 연결 [!DNL Experience Manager] 기본 포트를 포함하는 URL을 사용합니다. 따라서 `virtualhosts` Dispatcher 구성의 설정에 기본 포트 번호가 포함되어야 합니다. 자세한 내용은 `virtualhosts` 구성, 참조 [가상 호스트 식별](https://experienceleague.adobe.com/en/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration#identifying-virtual-hosts-virtualhosts).
 
-이러한 추가 헤더를 전달하도록 Dispatcher를 구성하는 방법에 대한 자세한 내용은 [HTTP 헤더 지정](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#specifying-the-http-headers-to-pass-through-clientheaders).
+이러한 추가 헤더를 전달하도록 Dispatcher을 구성하는 방법에 대한 자세한 내용은 [HTTP 헤더 지정](https://experienceleague.adobe.com/en/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration#specifying-the-http-headers-to-pass-through-clientheaders).
 
 ### 프록시 지원 {#proxy-support}
 
-[!DNL Experience Manager] 데스크탑 앱은 시스템의 사전 정의된 프록시를 사용하여 HTTPS를 통해 인터넷에 연결합니다. 앱은 추가 인증이 필요하지 않은 네트워크 프록시만 사용하여 연결할 수 있습니다.
+다음 [!DNL Experience Manager] 데스크탑 앱은 시스템의 사전 정의된 프록시를 사용하여 HTTPS를 통해 인터넷에 연결합니다. 앱은 추가 인증이 필요하지 않은 네트워크 프록시만 사용하여 연결할 수 있습니다.
 
 Windows용 프록시 서버 설정(인터넷 옵션 > LAN 설정)을 구성하거나 수정하려면 [!DNL Experience Manager] 데스크탑 앱으로 변경 사항을 적용합니다.
 
@@ -91,7 +91,7 @@ Windows용 프록시 서버 설정(인터넷 옵션 > LAN 설정)을 구성하�
 
 Windows에서 캐시는 다음 위치에 있습니다. `%LOCALAPPDATA%\Adobe\AssetsCompanion\Cache\`: 여기서 는 의 인코딩된 버전입니다. [!DNL Experience Manager] 데스크탑 앱에서 구성된 호스트입니다. 예를 들어, `http://localhost:4502` 다음으로 표시: `http%3A%2F%2Flocalhost%3A4502%2F`.
 
-Mac OS X에서 유사한 디렉토리는에 있습니다. `~/Library/Group Containers/group.com.adobe.aem.desktop/cache`.
+macOS X에서 유사한 디렉토리는에 있습니다. `~/Library/Group Containers/group.com.adobe.aem.desktop/cache`.
 
 ### 캐시 관리를 위한 인앱 옵션 {#in-app-option-to-manage-cache}
 
@@ -99,7 +99,7 @@ Mac OS X에서 유사한 디렉토리는에 있습니다. `~/Library/Group Conta
 
 >[!NOTE]
 >
->캐시를 지우면 저장되지 않은 변경 사항이 유지됩니다. 체크인되지 않은 에셋 [!DNL Experience Manager] 서버는 유지되며 삭제되지 않습니다.
+>캐시를 지우면 저장되지 않은 변경 사항이 유지됩니다. 에 체크인되지 않은 모든 에셋 [!DNL Experience Manager] 서버는 유지되며 삭제되지 않습니다.
 
 ### Windows에서 캐시 위치 변경 {#change-location-of-cache-on-windows}
 
@@ -109,13 +109,13 @@ Mac OS X에서 유사한 디렉토리는에 있습니다. `~/Library/Group Conta
 
 * Mac, `~/Library/Group/Containers/group.com.adobe.aem.desktop/cache/EncodedAEMEndpoint`.
 
-`EncodedAEMEndpoint` 앱 구성됨 [!DNL Experience Manager] 끝점 URL. 값은 의 타겟팅 URL의 인코딩된 버전입니다. [!DNL Experience Manager] 서버입니다. 예를 들어 애플리케이션이 타겟팅하는 경우 `http://localhost:4502`, 디렉터리 이름은 입니다. `http%3A%2F%2Flocalhost%3A4502`. 이 예제에서 캐시 디렉터리에 대한 Windows 경로는 다음과 같습니다. `%LocalAppData%\Adobe\AssetsCompanion\Cache\http%3A%2F%2Flocalhost%3A4502`.
+다음 `EncodedAEMEndpoint` 앱이 구성되어 있음 [!DNL Experience Manager] 끝점 URL. 값은 의 타겟팅 URL의 인코딩된 버전입니다. [!DNL Experience Manager] 서버입니다. 예를 들어 애플리케이션이 타겟팅하는 경우 `http://localhost:4502`, 디렉터리 이름은 입니다. `http%3A%2F%2Flocalhost%3A4502`. 이 예제에서 캐시 디렉터리에 대한 Windows 경로는 다음과 같습니다. `%LocalAppData%\Adobe\AssetsCompanion\Cache\http%3A%2F%2Flocalhost%3A4502`.
 
 응용 프로그램을 다른 폴더 또는 다른 드라이브로 지정하려면 응용 프로그램의 구성 파일을 편집합니다.
 
 1. 앱의 설치 디렉토리로 이동합니다. Windows의 기본 위치는 입니다. `C:\Program Files (x86)\Adobe\Adobe Experience Manager Desktop`.
 
-1. 텍스트 편집기를 사용하여 Adobe Experience Manager Desktop.exe.config 파일을 편집합니다.
+1. 편집 `Adobe Experience Manager Desktop.exe.config` 텍스트 편집기가 있는 파일입니다.
 
    이 파일에 변경 사항을 저장하려면 관리자 권한이 필요합니다.
 
@@ -127,6 +127,6 @@ Mac OS X에서 유사한 디렉토리는에 있습니다. `~/Library/Group Conta
 
 >[!MORELIKETHIS]
 >
-* [소개 [!DNL Experience Manager] 데스크탑 앱](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app.html).
+* 보기 [소개 [!DNL Experience Manager] 데스크탑 앱](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app) (5분, 43초).
 * [사용 [!DNL Experience Manager] 데스크탑 앱](use-app-v1.md).
 * [문제 해결 [!DNL Experience Manager] 데스크탑 앱](troubleshoot-app-v1.md).
