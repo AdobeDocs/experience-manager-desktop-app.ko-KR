@@ -1,6 +1,6 @@
 ---
-title: "[!DNL Adobe Experience Manager] 데스크탑 앱 릴리스 노트"
-description: 의 릴리스 세부 정보, 향상된 기능, 새로운 기능, 호환성 및 다운로드 링크 [!DNL Adobe Experience Manager] 데스크탑 앱입니다.
+title: "[!DNL Adobe Experience Manager] 데스크톱 앱 릴리스 노트"
+description: ' [!DNL Adobe Experience Manager] 데스크톱 앱에 대한 릴리스 정보, 개선 사항, 새로운 기능, 호환성 및 다운로드 링크.'
 mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
@@ -11,7 +11,7 @@ ht-degree: 12%
 
 ---
 
-# [!DNL Adobe Experience Manager] 데스크탑 앱 릴리스 노트 {#release-notes-v2}
+# [!DNL Adobe Experience Manager] 데스크톱 앱 릴리스 노트 {#release-notes-v2}
 
 최신 데스크탑 앱 버전 2.3.0의 릴리스 정보는 다음과 같습니다. 릴리스 날짜는 2023년 7월 14일입니다.
 
@@ -22,17 +22,17 @@ ht-degree: 12%
 * 기업 프록시 및 웹 필터링에 대한 지원이 개선되었습니다.
 
 
-다음 **지원됨 [!DNL Experience Manager] 버전** 은(는)
+**지원되는 [!DNL Experience Manager] 버전**&#x200B;은(는) 다음과 같습니다.
 
-* [!DNL Experience Manager] as a [!DNL Cloud Service]. 다음을 참조하십시오 [릴리스 정보](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/home).
-* [!DNL Experience Manager] 6.5.0 이상, Adobe Managed Services(AMS) 또는 온프레미스 다음을 참조하십시오 [서비스 팩 릴리스 노트](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/release-notes/release-notes).
+* [!DNL Experience Manager]을(를) [!DNL Cloud Service](으)로 설정합니다. [릴리스 정보](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/home)를 참조하세요.
+* [!DNL Experience Manager] 6.5.0 이상, Adobe Managed Services(AMS) 또는 온-프레미스. [서비스 팩 릴리스 정보](https://experienceleague.adobe.com/kr/docs/experience-manager-65/content/release-notes/release-notes)를 참조하세요.
 
-[!DNL Adobe Experience Manager] 다음에서 데스크탑 앱을 사용할 수 있습니다. **운영 체제**:
+[!DNL Adobe Experience Manager] 데스크톱 앱은 다음 **운영 체제**&#x200B;에서 사용할 수 있습니다.
 
 * macOS X 10.14 이상(최신 버그 수정 포함)
 * 최신 서비스 팩 및 버그 수정 사항이 포함된 Windows 10.
 
-다음 **다운로드 URL** 지원되는 OS의 경우
+지원되는 OS의 **다운로드 URL**&#x200B;은(는) 다음과 같습니다.
 
 | 운영 체제 | [!DNL Experience Manager] as a [!DNL Cloud Service] | [!DNL Experience Manager] 6.x |
 |---|---|---|
@@ -60,27 +60,27 @@ ht-degree: 12%
 
 ## 다양한 에셋 및 파일 유형 지원 {#support-for-file-types}
 
-애플리케이션은에 저장된 자산을 지원합니다. [!DNL Experience Manager] 기본 작업용 이진 파일을 나타냅니다. 기본 데스크탑 애플리케이션에서 열리는 파일은 운영 체제에서 특정 애플리케이션(예: Mac Preview 또는 Adobe Photoshop)에 연결된 특정 파일 유형(예: PNG 또는 JPG)에 따라 다릅니다.
+응용 프로그램이 기본 작업을 위해 이진 파일을 나타내는 [!DNL Experience Manager]에 저장된 자산을 지원합니다. 기본 데스크탑 애플리케이션에서 열리는 파일은 운영 체제에서 특정 애플리케이션(예: Mac Preview 또는 Adobe Photoshop)에 연결된 특정 파일 유형(예: PNG 또는 JPG)에 따라 다릅니다.
 
-몇 가지 파일 유형은 연결된 자산을 바이너리에 배치하는 것을 지원합니다. 자산이 다음에 있는 경우 연결된 자산을 애플리케이션에서 미리 다운로드합니다. [!DNL Experience Manager] 데스크탑 앱을 사용하여 이진 파일을 열 때의 저장소입니다. 현재 지원되는 파일 유형은 다음과 같습니다.
+몇 가지 파일 유형은 연결된 자산을 바이너리에 배치하는 것을 지원합니다. 데스크톱 앱을 사용하여 이진 파일을 열 때 자산이 [!DNL Experience Manager] 저장소에 있는 경우 연결된 자산을 미리 다운로드합니다. 현재 지원되는 파일 유형은 다음과 같습니다.
 
-* [!DNL Adobe InDesign] 파일(INDD 형식)
-* [!DNL Adobe Illustrator] 파일(AI 형식)
-* [!DNL Adobe Photoshop] 파일(PS 형식)
+* [!DNL Adobe InDesign]개 파일(INDD 형식)
+* [!DNL Adobe Illustrator]개 파일(AI 형식)
+* [!DNL Adobe Photoshop]개 파일(PS 형식)
 
-이 기능은 을 통해 지원됩니다. [!DNL Adobe Creative Cloud] 2018년 [!DNL Adobe Creative Cloud] 위의 애플리케이션의 2019 버전입니다. 앱에서는 가장 일치하는 방식을 추론하여 연결된 자산의 로컬 데스크탑 경로를 의 URL에 매핑합니다. [!DNL Experience Manager] 서버입니다. 몇 가지 가정을 이용합니다.
+위의 응용 프로그램의 [!DNL Adobe Creative Cloud] 2018 및 [!DNL Adobe Creative Cloud] 2019 버전에서 이 기능이 지원됩니다. 앱에서는 가장 일치하는 방식을 추론하여 연결된 자산의 로컬 데스크톱 경로를 [!DNL Experience Manager] 서버의 URL에 매핑합니다. 몇 가지 가정을 이용합니다.
 
-* 기본 응용 프로그램에 배치된 파일에 대한 경로에는 글로벌 데스크탑 경로(와 함께 표시되는 로컬 네트워크 공유에서 배치됨)가 사용됩니다. [!UICONTROL Reveal] 선택 사항).
+* 기본 응용 프로그램에 배치된 파일에 대한 경로에는 글로벌 데스크톱 경로([!UICONTROL Reveal] 옵션과 함께 표시된 로컬 네트워크 공유에서 배치됨)가 사용됩니다.
 
 * 경로는 기본 앱에서 파일의 XMP 레코드에 저장합니다.
 
-* [!DNL Experience Manager] 은(는) 에셋의 메타데이터 레코드 경로가 포함된 XMP 레코드를 추출했습니다.
+* [!DNL Experience Manager]이(가) 자산의 메타데이터 레코드 경로가 포함된 XMP 레코드를 추출했습니다.
 
-* 경로는 의 에셋에 일치시킬 수 있습니다. [!DNL Experience Manager]즉, 배치된 파일은에 있습니다 [!DNL Experience Manager] 를 입력합니다.
+* 경로가 [!DNL Experience Manager]의 자산에 일치할 수 있습니다. 즉, 배치된 파일이 일치하는 경로 아래의 [!DNL Experience Manager]에도 있습니다.
 
 ## 새로운 기능, 개선 사항 및 버그 수정 {#what-is-new}
 
-자세한 내용은 다음을 참조하십시오. [v2.0의 새로운 기능](introduction.md#whats-new-v2).
+자세한 내용은 [v2.0의 새로운 기능](introduction.md#whats-new-v2)을 참조하세요.
 
 **앱 v2.2.2의 업데이트**
 
@@ -88,11 +88,11 @@ ht-degree: 12%
 
 **앱 v2.2.1의 업데이트**
 
-* 을 클릭하면 데스크탑 앱에 세션 시간 초과 오류 메시지가 표시됩니다. **[!UICONTROL Sign In]**.
+* **[!UICONTROL Sign In]**&#x200B;을(를) 클릭하면 데스크톱 앱에 세션 시간 초과 오류 메시지가 표시됩니다.
 
 * macOS에서 데스크탑 앱 v2.2.0에 액세스하는 동안 문제가 발생합니다.
 
-* 을 클릭하여 자산을 정렬할 때 데스크탑 앱에 오류 메시지가 표시됩니다. **[!UICONTROL Edited Locally]**.
+* **[!UICONTROL Edited Locally]**&#x200B;을(를) 클릭하여 자산을 정렬할 때 데스크톱 앱에 오류 메시지가 표시됩니다.
 
 **앱 v2.2.0의 업데이트**
 
@@ -126,29 +126,29 @@ ht-degree: 12%
 
 이 버전에서 수정된 버그는 다음과 같습니다.
 
-* 큰 에셋의 경우에도 에셋 업로드 및 다운로드 속도가 개선되었습니다. 이 릴리스에서는 에셋이 로 업로드되는 문제가 해결되었습니다. [!DNL desktop app] 매우 큰 파일이 업로드되면 때로 오류가 발생합니다.
+* 큰 에셋의 경우에도 에셋 업로드 및 다운로드 속도가 개선되었습니다. 이 릴리스에서는 대용량 파일을 업로드할 때 종종 [!DNL desktop app]에 자산을 업로드하지 못하는 문제를 해결했습니다.
 
 **앱 v2.1.2.0에서 업데이트**
 
-* 에 대한 새로운 옵션 [!UICONTROL Clear Cookies] 는 애플리케이션의 메인 메뉴에 추가됩니다. 서버에서 다른 서버로 연결을 변경하는 등의 잠재적 로그온 문제를 해결하는 데 도움이 됩니다. 다음을 참조하십시오 [연결하기 전에 쿠키 지우기](/help/using/troubleshoot.md#cannot-login-cookies-issue).
+* [!UICONTROL Clear Cookies]에 대한 새 옵션이 응용 프로그램의 기본 메뉴에 추가되었습니다. 서버에서 다른 서버로 연결을 변경하는 등의 잠재적 로그온 문제를 해결하는 데 도움이 됩니다. [연결하기 전에 쿠키 지우기](/help/using/troubleshoot.md#cannot-login-cookies-issue)를 참조하십시오.
 
-* 선택한 경우 앱에서 노드 이름이 인 폴더 및 파일을 업로드할 수 있는 새 옵션이 추가되었습니다 [!DNL Adobe Experience Manager] 로컬 파일 및 폴더 이름과 일치 이 프로세스는 로컬 이름과 업로드된 이름 간의 일관성을 보장합니다.
+* 선택하면 앱에서 로컬 파일 및 폴더 이름과 일치하는 [!DNL Adobe Experience Manager]의 노드 이름을 가진 폴더 및 파일을 업로드할 수 있는 새 옵션이 추가되었습니다. 이 프로세스는 로컬 이름과 업로드된 이름 간의 일관성을 보장합니다.
 
-  이 동작은 데스크탑 앱 버전 1의 기본 동작과 유사합니다. 반면 현재 버전에서는 옵션이 활성화되지 않은 경우 및 문자를 공백으로 둡니다 `% ; # , + ? ^ { } "` 의 폴더 이름은 폴더 경로의 대시로 대체됩니다. 또한 폴더 경로에서 대문자 문자는 소문자로 변환됩니다. 그러나 파일 이름에는 `# % { } ? &` 대시로 대체되지만 공백과 대/소문자는 그대로 유지됩니다. 자세한 내용은, [앱 환경 설정](/help/using/install-upgrade.md#set-preferences) 및 [새 에셋 업로드 및 추가](/help/using/using.md#upload-and-add-new-assets-to-aem).
+  이 동작은 데스크탑 앱 버전 1의 기본 동작과 유사합니다. 반면 현재 버전에서는 옵션이 활성화되어 있지 않으면 폴더 이름에서 공백과 `% ; # , + ? ^ { } "` 문자가 폴더 경로의 대시로 바뀝니다. 또한 폴더 경로에서 대문자 문자는 소문자로 변환됩니다. 그러나 파일 이름에서 `# % { } ? &` 문자는 대시로 바뀌지만 공백과 대/소문자는 그대로 유지됩니다. 자세한 내용은 [앱 환경 설정](/help/using/install-upgrade.md#set-preferences) 및 [새 에셋 업로드 및 추가](/help/using/using.md#upload-and-add-new-assets-to-aem)를 참조하십시오.
 
 **앱 v2.1.1.0에서 업데이트**
 
-* 고급 설정을 사용하면 폴더를 업로드할 때 앱에서 v1.10 앱 동작을 에뮬레이션할 수 있습니다. v1.10에서 저장소에서 생성된 노드 이름은 사용자가 제공한 폴더 이름의 공백 및 대소문자를 따릅니다. 버전 2.1에서는 기본 동작이 변경되지 않습니다. 폴더 이름의 여러 공백은 저장소 노드 이름에서 하이픈으로 대체되고 노드 이름은 소문자로 변환됩니다. 다음을 참조하십시오 [앱 환경 설정](/help/using/install-upgrade.md#set-preferences).
+* 고급 설정을 사용하면 폴더를 업로드할 때 앱에서 v1.10 앱 동작을 에뮬레이션할 수 있습니다. v1.10에서 저장소에서 생성된 노드 이름은 사용자가 제공한 폴더 이름의 공백 및 대소문자를 따릅니다. 버전 2.1에서는 기본 동작이 변경되지 않습니다. 폴더 이름의 여러 공백은 저장소 노드 이름에서 하이픈으로 대체되고 노드 이름은 소문자로 변환됩니다. [앱 환경 설정](/help/using/install-upgrade.md#set-preferences)을 참조하세요.
 
 **앱 v2.1.0.0에서 업데이트**
 
-* 이제 에셋을 업로드하기 위해 Windows 탐색기 또는 Mac Finder에서 직접 애플리케이션 인터페이스의 파일 또는 폴더를 드래그할 수 있습니다. 이 프로세스는 애플리케이션에서 사용할 수 있는 업로드 옵션과 함께 작동합니다. 다음을 참조하십시오 [에셋 업로드](/help/using/using.md#upload-and-add-new-assets-to-aem) <!-- CQ-4309527 -->
+* 이제 에셋을 업로드하기 위해 Windows 탐색기 또는 Mac Finder에서 직접 애플리케이션 인터페이스의 파일 또는 폴더를 드래그할 수 있습니다. 이 프로세스는 애플리케이션에서 사용할 수 있는 업로드 옵션과 함께 작동합니다. [자산 업로드](/help/using/using.md#upload-and-add-new-assets-to-aem) <!-- CQ-4309527 --> 참조
 
 **앱 v2.0.3에서 업데이트**
 
 이 버전에서 수정된 버그는 다음과 같습니다.
 
-* 의 DAM 저장소에 액세스하려고 하는 Windows의 앱 사용자에 대한 로그인 문제를 해결했습니다. [!DNL Adobe Experience Manager] 6.5.5.0.
+* [!DNL Adobe Experience Manager] 6.5.5.0의 DAM 저장소에 액세스하려는 Windows의 앱 사용자에 대한 로그인 문제를 해결했습니다.
 
 **앱 v2.0.2의 업데이트**
 
@@ -168,29 +168,29 @@ ht-degree: 12%
 
 버그 수정 및 업데이트:
 
-* 옵션 구성 허용 `%Temp%` 일치시킬 디렉터리 `%APPDATA%` 경로. <!-- CQ-4282665 -->
+* `%APPDATA%` 경로와 일치하도록 `%Temp%` 디렉터리를 구성하는 옵션을 허용합니다. <!-- CQ-4282665 -->
 
-* 사용자 로그인 허용 [!DNL Experience Manager] Okta SAML 인증을 통해 작성됩니다. <!-- CQ-4278134 -->
+* 사용자가 Okta SAML 인증을 통해 [!DNL Experience Manager] 작성자에 로그인할 수 있도록 허용합니다. <!-- CQ-4278134 -->
 
 ## 설치 지침 {#installation-instructions-v2}
 
-앱을 설치하고 구성하는 방법은 를 참조하십시오. [설치 [!DNL Experience Manager] 데스크탑 앱](install-upgrade.md).
+앱을 설치하고 구성하는 방법은 [설치 [!DNL Experience Manager] 데스크톱 앱](install-upgrade.md)을 참조하세요.
 
-이전 버전에서 업그레이드하는 경우 [!DNL Experience Manager] 데스크탑 앱에서는 다음 목록에 있는 전환 우수 사례를 따라야 합니다. [이전 버전에서 업그레이드](install-upgrade.md#upgrade-from-previous-version).
+이전 [!DNL Experience Manager] 데스크톱 앱에서 업그레이드하는 경우 [이전 버전에서 업그레이드](install-upgrade.md#upgrade-from-previous-version)에 나열된 전환 우수 사례를 따라야 합니다.
 
 ## 앱 작동 방식에 대한 중요한 참고 사항 {#how-app-works}
 
 애플리케이션 및 애플리케이션 작동 방식에 대한 다음 내용을 알고 있어야 합니다.
 
-* 이 응용 프로그램에서는 에셋 바이너리를 및 로 완전히 전송해야 하는 작업을 완벽하게 제어할 수 있습니다 [!DNL Experience Manager] (**열기**, **편집**, **변경 사항 업로드**, 및 **Assets 업로드**).
+* [!DNL Experience Manager](으)로 에셋 바이너리를 완전히 전송해야 하는 작업에 대한 모든 권한을 응용 프로그램에서 제공합니다(**열기**, **편집**, **변경 내용 업로드** 및 **Assets 업로드**).
 
    * 데스크탑에서 자산으로 작업하려면 개별적으로, 폴더로 또는 다중 선택을 통해 열기, 편집 또는 데스크탑으로 다운로드를 명시적으로 수행해야 합니다.
 
-   * 업로드된 에셋에 대한 로컬 변경 내용을 가져오려면 [!DNL Experience Manager], 다음을 선택해야 합니다. [!UICONTROL Upload Changes], 개별적으로 또는 다중 선택을 통해
+   * [!DNL Experience Manager]에 업로드된 자산에 로컬 변경 내용을 가져오려면 개별적으로 또는 다중 선택을 통해 [!UICONTROL Upload Changes]을(를) 선택해야 합니다.
 
-   * 응용 프로그램이 데스크톱 및 전체에서 자산을 동기화하는 &#39;동기화 클라이언트&#39;가 아닙니다 [!DNL Experience Manager].
+   * 응용 프로그램이 데스크톱과 [!DNL Experience Manager]에서 자산을 동기화하는 &#39;동기화 클라이언트&#39;가 아닙니다.
 
-   * 응용 프로그램에서 다음을 매핑하는 네트워크 공유를 제공하지 않습니다. [!DNL Experience Manager] 가상 폴더 구조로서의 저장소.
+   * 응용 프로그램에서 [!DNL Experience Manager] 리포지토리를 가상 폴더 구조로 매핑하는 네트워크 공유를 제공하지 않습니다.
 
 * 애플리케이션에서 표시하는 에셋 목록은 Assets 저장소의 상태를 기반으로 합니다. 로컬로 다운로드한 후 로컬 파일 또는 캐시 폴더에서 이름을 변경한 파일은 애플리케이션에서 표시하거나 관리하지 않습니다.
 
@@ -202,13 +202,13 @@ ht-degree: 12%
 
 다음 다이어그램은 사용자 작업에서 시작된 자산과 파일의 클라우드와 로컬 파일 시스템 간 흐름을 보여줍니다.
 
-![자산 흐름 [!DNL Experience Manager] 데스크탑 앱을 통한 서버-기본 데스크탑 앱](assets/da20_flow_diagram.png)
+![데스크톱 앱을 통해 [!DNL Experience Manager] 서버에서 기본 데스크톱 앱으로 자산 흐름](assets/da20_flow_diagram.png)
 
 ## 알려진 문제 {#known-issues-v2}
 
 **사용자 인터페이스 문제:**
 
-* 데스크탑 앱의 인터페이스가 비어 있는 경우가 가끔 있습니다. 마우스 오른쪽 단추 클릭 및 클릭 [!UICONTROL Refresh] 응용 프로그램을 다시 로드합니다. 새로 고친 후에는 DAM 저장소의 루트에서 시작합니다. 에셋의 또는 상태에 대한 업데이트가 유지됩니다. <!-- CQ-4270267 -->
+* 데스크탑 앱의 인터페이스가 비어 있는 경우가 가끔 있습니다. 마우스 오른쪽 단추를 클릭하고 [!UICONTROL Refresh]을(를) 클릭하여 응용 프로그램을 다시 로드합니다. 새로 고친 후에는 DAM 저장소의 루트에서 시작합니다. 에셋의 또는 상태에 대한 업데이트가 유지됩니다. <!-- CQ-4270267 -->
 
 * 트랙 패드나 마우스 포인터가 없으면 폴더/검색 결과를 탐색하기 어렵습니다. 휠 없는 마우스 장치에는 스크롤 막대가 표시되지 않습니다. <!-- CQ-4269947 -->
 
@@ -216,11 +216,11 @@ ht-degree: 12%
 
 * 필터를 적용하고 제거하여 로컬에서 편집한 모든 자산을 찾으면 사용자가 시작한 검색 결과 또는 폴더 보기로 앱에서 이동하지 않습니다. DAM 저장소의 루트 폴더를 앱에서 표시합니다.
 
-* 가 없는 URL에 연결할 때 [!DNL Experience Manager] 서버가 실행 중이면 connect(연결) 화면이 응답하지 않습니다. 애플리케이션을 종료하고 다시 시작합니다.
+* 실행 중인 [!DNL Experience Manager] 서버가 없는 URL에 연결하면 연결 화면이 응답하지 않는 경우가 가끔 있습니다. 애플리케이션을 종료하고 다시 시작합니다.
 
 **CRUD(만들기, 읽기, 업데이트 및 삭제) 문제:**
 
-* 주석이 있는 에셋에 변경 사항을 업로드할 때 주석은 에셋과 함께 저장됩니다. [!DNL Experience Manager] 그러나 버전 관리 주석으로 표시되지 않습니다. 이 문제는에서 해결되었습니다. [!DNL Experience Manager] 6.4.5 및 [!DNL Experience Manager] Adobe 6.5.1. 최신 서비스 팩을 설치하는 것이 좋습니다. <!-- CQ-4268990 -->
+* 변경 내용을 주석과 함께 자산에 업로드할 때 주석이 자산과 함께 [!DNL Experience Manager]에 저장되지만 버전 관리 주석으로 표시되지 않습니다. 이 문제는 [!DNL Experience Manager] 6.4.5 및 [!DNL Experience Manager] 6.5.1에서 해결되었습니다. Adobe은 최신 서비스 팩을 설치할 것을 권장합니다. <!-- CQ-4268990 -->
 
 * 사용자가 자산 전송을 취소할 수 없습니다. 의도하지 않은 대용량 전송을 트리거한 경우 애플리케이션을 종료하고 다시 시작합니다. <!-- CQ-4278940 -->
 
@@ -230,8 +230,8 @@ ht-degree: 12%
 
 >[!MORELIKETHIS]
 >
->* [[!DNL Experience Manager] as a [!DNL Cloud Service] 설명서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service)
->* [[!DNL Experience Manager] as a [!DNL Cloud Service] [!DNL Assets] 설명서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/overview)
->* [사용 방법 [!DNL Experience Manager] 데스크탑 앱](using.md)
+>* [[!DNL Experience Manager] as a [!DNL Cloud Service] documentation](https://experienceleague.adobe.com/kr/docs/experience-manager-cloud-service)
+>* [[!DNL Experience Manager] as a [!DNL Cloud Service] [!DNL Assets] documentation](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/overview)
+>* [사용 방법 [!DNL Experience Manager] 데스크톱 앱](using.md)
 >* [데스크탑 앱 설치 및 업그레이드](install-upgrade.md)
 >* [우수 사례 및 문제 해결 팁](troubleshoot.md)
