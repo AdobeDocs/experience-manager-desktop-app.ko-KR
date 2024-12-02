@@ -1,5 +1,5 @@
 ---
-title: "[!DNL Adobe Experience Manager] 데스크톱 앱 릴리스 노트"
+title: '[!DNL Adobe Experience Manager] 데스크톱 앱 릴리스 노트'
 description: ' [!DNL Adobe Experience Manager] 데스크톱 앱에 대한 릴리스 정보, 개선 사항, 새로운 기능, 호환성 및 다운로드 링크.'
 mini-toc-levels: 1
 feature: Desktop App,Release Information
@@ -23,7 +23,7 @@ ht-degree: 11%
 
 **지원되는 [!DNL Experience Manager] 버전**&#x200B;은(는) 다음과 같습니다.
 
-* [!DNL Experience Manager]을(를) [!DNL Cloud Service](으)로 설정합니다. [릴리스 정보](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/home)를 참조하세요.
+* [!DNL Experience Manager]을(를) [!DNL Cloud Service](으)로 설정합니다. [릴리스 정보](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/release-notes/home)를 참조하세요.
 * [!DNL Experience Manager] 6.5.0 이상, Adobe Managed Services(AMS) 또는 온-프레미스. [서비스 팩 릴리스 정보](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/release-notes/release-notes)를 참조하세요.
 
 [!DNL Adobe Experience Manager] 데스크톱 앱은 다음 **운영 체제**&#x200B;에서 사용할 수 있습니다.
