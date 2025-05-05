@@ -21,7 +21,7 @@ AEM 데스크탑 앱을 사용하면 AEM에서 잘못된 로컬 복사본을 업
 
 >[!NOTE]
 >
->이 문서를 읽기 전에 전체적인 [AEM 및 Creative Cloud 통합 모범 사례](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/aem-cc-integration-best-practices)를 검토하여 이 항목의 더 높은 수준의 개요를 확인할 수 있습니다.
+>이 문서를 읽기 전에 전체적인 [AEM 및 Creative Cloud 통합 모범 사례](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/assets/administer/aem-cc-integration-best-practices)를 검토하여 이 항목의 더 높은 수준의 개요를 확인할 수 있습니다.
 
 ## AEM 데스크탑 앱 아키텍처 {#aem-desktop-app-architecture}
 
@@ -63,7 +63,7 @@ AEM 데스크탑 앱의 주요 기능은 다음과 같습니다.
 
 * 자산을 자주 저장하는 데 AEM 데스크탑 앱 네트워크 드라이브를 사용하지 마십시오. 모든 저장 작업은 AEM Assets으로 전송됩니다. 따라서 마운트된 AEM Assets 저장소에서 직접 집중 편집 작업을 수행하는 것은 어렵습니다. 탑재된 저장소에서 직접 에셋을 편집하면 관련 없는 버전으로 에셋의 타임라인이 조정되고 서버에 추가 오버헤드가 부과됩니다.
 
-* 한 AEM 인스턴스에서 다른 AEM 인스턴스로 대량의 데이터를 마이그레이션하는 데 데스크탑 앱을 사용하지 마십시오. 자산 마이그레이션을 계획하고 실행하려면 [마이그레이션 안내서](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/assets-migration-guide)를 참조하세요. 반면 데스크톱 앱 [은(는) [!DNL Adobe Experience Manager]에서 처음으로 많은 수의 에셋을 일괄 업로드](use-app-v1.md#bulkupload)할 수 있도록 지원합니다.
+* 한 AEM 인스턴스에서 다른 AEM 인스턴스로 대량의 데이터를 마이그레이션하는 데 데스크탑 앱을 사용하지 마십시오. 자산 마이그레이션을 계획하고 실행하려면 [마이그레이션 안내서](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/assets/administer/assets-migration-guide)를 참조하세요. 반면 데스크톱 앱 [은(는) [!DNL Adobe Experience Manager]에서 처음으로 많은 수의 에셋을 일괄 업로드](use-app-v1.md#bulkupload)할 수 있도록 지원합니다.
 
 ## 선택한 사용 사례에 대한 Recommendations {#recommendations-for-selected-use-cases}
 
@@ -119,7 +119,7 @@ AEM 데스크탑 앱에 대한 훌륭한 사용자 경험은 안정적인 네트
 
 ### 네트워크 고려 사항 {#network-considerations}
 
-AEM Assets 네트워크 구성에 대한 모범 사례를 이해하려면 [자산을 대량 마이그레이션하는 방법](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/assets-migration-guide) 문서로 이동하십시오. 사용자를 위한 AEM 데스크탑 앱 환경을 최적화하는 데 도움이 되는 몇 가지 중요한 측면은 다음과 같습니다.
+AEM Assets 네트워크 구성에 대한 모범 사례를 이해하려면 [자산을 대량 마이그레이션하는 방법](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/assets/administer/assets-migration-guide) 문서로 이동하십시오. 사용자를 위한 AEM 데스크탑 앱 환경을 최적화하는 데 도움이 되는 몇 가지 중요한 측면은 다음과 같습니다.
 
 * **올바르게 구성된 Dispatcher 사용**. 추가 보안을 위해 AEM Dispatcher을 사용하고, Dispatcher 뒤의 AEM에 대한 [AEM 데스크톱 앱 연결에 대해 구성되어 있는지 확인하십시오](install-configure-app-v1.md#connect-to-an-aem-instance-behind-a-dispatcher)
 
@@ -131,8 +131,8 @@ AEM Assets 네트워크 구성에 대한 모범 사례를 이해하려면 [자�
 
 ### 서버 성능 최적화 {#optimizing-server-performance}
 
-AEM Assets 서버를 성능에 맞게 최적화하는 방법을 이해하려면 [AEM Assets 성능 조정 가이드](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/performance-tuning-guidelines)로 이동하십시오. AEM 데스크탑 앱의 서버 성능에 대한 몇 가지 중요한 측면은 자산 업로드에 잘 수행되도록 워크플로 구성을 최적화하는 것입니다.
+AEM Assets 서버를 성능에 맞게 최적화하는 방법을 이해하려면 [AEM Assets 성능 조정 가이드](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/assets/administer/performance-tuning-guidelines)로 이동하십시오. AEM 데스크탑 앱의 서버 성능에 대한 몇 가지 중요한 측면은 자산 업로드에 잘 수행되도록 워크플로 구성을 최적화하는 것입니다.
 
-* **추가 성능 자산 업로드**. [AEM Asset Update 워크플로 모델을 임시 ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/performance-tuning-guidelines)(으)로 구성하십시오.
+* **추가 성능 자산 업로드**. [AEM Asset Update 워크플로 모델을 임시 ](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/assets/administer/performance-tuning-guidelines)(으)로 구성하십시오.
 
 * **업로드에 대한 서버 CPU 제한**. 업로드가 모든 CPU를 소모하지 않도록 최대 병렬 워크플로우 작업 매개 변수가 올바르게 설정되었는지 확인합니다.

@@ -60,7 +60,7 @@ ht-degree: 0%
 
 1. 다른 버전의 앱에서 업그레이드하는 경우 [데스크톱 앱 업그레이드](#upgrade-from-previous-version)를 참조하십시오.
 
-1. [!DNL Experience Manager]을(를) [!DNL Cloud Service], [!DNL Experience Manager] 6.4.4 이상 또는 [!DNL Experience Manager] 6.5.0 이상으로 사용하는 경우 이 단계를 건너뜁니다. [!DNL Experience Manager] 설정이 [릴리스 정보](release-notes.md)에 언급된 호환성 요구 사항을 충족하는지 확인하십시오. 필요한 경우 해당 [호환성 패키지](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)를 다운로드하고 [!DNL Experience Manager] 패키지 관리자를 사용하여 [!DNL Experience Manager] 관리자로 설치하십시오. 패키지를 설치하려면 [패키지를 사용하여 작업하는 방법](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/contentmanagement/package-manager)을 참조하세요.
+1. [!DNL Experience Manager]을(를) [!DNL Cloud Service], [!DNL Experience Manager] 6.4.4 이상 또는 [!DNL Experience Manager] 6.5.0 이상으로 사용하는 경우 이 단계를 건너뜁니다. [!DNL Experience Manager] 설정이 [릴리스 정보](release-notes.md)에 언급된 호환성 요구 사항을 충족하는지 확인하십시오. 필요한 경우 해당 [호환성 패키지](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)를 다운로드하고 [!DNL Experience Manager] 패키지 관리자를 사용하여 [!DNL Experience Manager] 관리자로 설치하십시오. 패키지를 설치하려면 [패키지를 사용하여 작업하는 방법](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/sites/administering/contentmanagement/package-manager)을 참조하세요.
 
 1. 설치 관리자 바이너리를 실행하고 화면의 지침에 따라 설치합니다.
 
@@ -92,7 +92,7 @@ ht-degree: 0%
 
    *그림: 로그인 후 응용 프로그램에서 DAM 내용을 표시합니다*
 
-1. ([!DNL Experience Manager] 6.5.1 이상) 데스크톱 앱을 [!DNL Experience Manager] 6.5.1 이상에서 사용하는 경우 S3 또는 Azure 커넥터를 버전 1.10.4 이상으로 업그레이드하십시오. [Azure 커넥터](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#azure-data-store) 또는 [S3 커넥터](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#amazon-s-data-store)를 참조하세요.
+1. ([!DNL Experience Manager] 6.5.1 이상) 데스크톱 앱을 [!DNL Experience Manager] 6.5.1 이상에서 사용하는 경우 S3 또는 Azure 커넥터를 버전 1.10.4 이상으로 업그레이드하십시오. [Azure 커넥터](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#azure-data-store) 또는 [S3 커넥터](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#amazon-s-data-store)를 참조하세요.
 
    Adobe Managed Services(AMS) 고객인 경우 Adobe 고객 지원 센터에 문의하십시오.
 

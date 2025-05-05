@@ -417,7 +417,7 @@ AEM 데스크탑 앱의 마운트 지점이 버전 1.4 및 1.5에서 변경되�
 
 ## 유용한 리소스 {#helpful-resources}
 
-* [AEM 설명서](https://experienceleague.adobe.com/en/docs)
+* [AEM 설명서](https://experienceleague.adobe.com/ko/docs)
 * [AEM 데스크탑 앱 v1.x 사용](use-app-v1.md)
 * [AEM desktop app v1.x 우수 사례](best-practices-for-v1.md)
 

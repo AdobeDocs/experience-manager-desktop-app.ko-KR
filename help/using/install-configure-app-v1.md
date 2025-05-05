@@ -61,9 +61,9 @@ Assets API의 복사 및 이동 메서드를 사용하려면 다음 추가 헤�
 * X-깊이
 * X-덮어쓰기
 
-[!DNL Experience Manager] 데스크톱이 기본 포트가 포함된 URL을 사용하여 [!DNL Experience Manager]에 연결합니다. 따라서 Dispatcher 구성의 `virtualhosts` 설정에는 기본 포트 번호가 포함되어야 합니다. `virtualhosts` 구성에 대한 자세한 내용은 [가상 호스트 식별](https://experienceleague.adobe.com/en/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration#identifying-virtual-hosts-virtualhosts)을 참조하십시오.
+[!DNL Experience Manager] 데스크톱이 기본 포트가 포함된 URL을 사용하여 [!DNL Experience Manager]에 연결합니다. 따라서 Dispatcher 구성의 `virtualhosts` 설정에는 기본 포트 번호가 포함되어야 합니다. `virtualhosts` 구성에 대한 자세한 내용은 [가상 호스트 식별](https://experienceleague.adobe.com/ko/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration#identifying-virtual-hosts-virtualhosts)을 참조하십시오.
 
-이러한 추가 헤더를 전달하도록 Dispatcher을 구성하는 방법에 대한 자세한 내용은 [HTTP 헤더 지정](https://experienceleague.adobe.com/en/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration#specifying-the-http-headers-to-pass-through-clientheaders)을 참조하십시오.
+이러한 추가 헤더를 전달하도록 Dispatcher을 구성하는 방법에 대한 자세한 내용은 [HTTP 헤더 지정](https://experienceleague.adobe.com/ko/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration#specifying-the-http-headers-to-pass-through-clientheaders)을 참조하십시오.
 
 ### 프록시 지원 {#proxy-support}
 
@@ -127,6 +127,6 @@ macOS X에서 유사한 디렉터리는 `~/Library/Group Containers/group.com.ad
 
 >[!MORELIKETHIS]
 >
->* [데스크톱 앱 소개 [!DNL Experience Manager] 2&rbrace;를 시청하십시오(5분 43초).](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
+>* [데스크톱 앱 소개 [!DNL Experience Manager] 2&rbrace;를 시청하십시오(5분 43초).](https://experienceleague.adobe.com/ko/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
 >* [사용 [!DNL Experience Manager] 데스크톱 앱](use-app-v1.md).
 >* [문제 해결 [!DNL Experience Manager] 데스크톱 앱](troubleshoot-app-v1.md).
