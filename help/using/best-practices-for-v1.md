@@ -127,7 +127,7 @@ AEM Assets 네트워크 구성에 대한 모범 사례를 이해하려면 [자�
 
 >[!NOTE]
 >
->아이콘 미리 보기를 해제하려면 Finder에서 [!UICONTROL View](으)로 이동하여 [!UICONTROL View Options]을(를) 선택한 다음 [!UICONTROL Show icon preview] 옵션을 선택 취소하십시오. 이 옵션은 현재 폴더에만 적용됩니다. 기본값으로 설정하려면 같은 대화 상자에서 [!UICONTROL Use as default] 옵션을 클릭하십시오.
+>아이콘 미리 보기를 해제하려면 Finder에서 [!UICONTROL View] (으)로 이동하여 [!UICONTROL View Options]을(를) 선택한 다음 [!UICONTROL Show icon preview] 옵션을 선택 취소하십시오. 이 옵션은 현재 폴더에만 적용됩니다. 기본값으로 설정하려면 같은 대화 상자에서 [!UICONTROL Use as default] 옵션을 클릭하십시오.
 
 ### 서버 성능 최적화 {#optimizing-server-performance}
 

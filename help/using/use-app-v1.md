@@ -27,7 +27,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->데스크톱 앱은 [!DNL Experience Manager] 6.1 릴리스에 도입되었으며 [!DNL Experience Manager Assets Companion App](으)로 호출되었습니다.
+>데스크톱 앱은 [!DNL Experience Manager] 6.1 릴리스에 도입되었으며 [!DNL Experience Manager Assets Companion App] (으)로 호출되었습니다.
 
 ## 크리에이티브 워크플로의 데스크톱 앱 터치포인트 [!DNL Experience Manager]개 {#aem-desktop-app-touch-points-in-the-creative-workflow}
 
@@ -226,7 +226,7 @@ INDD(Adobe InDesign) 파일의 경우 상황에 맞는 메뉴에서 **[!UICONTRO
 
 ### 자산 및 폴더를 [!DNL Experience Manager] 서버에 일괄 업로드 {#bulkupload}
 
-[!DNL Experience Manager] 데스크톱 앱을 사용하면 로컬 파일 디렉터리에서 자산이 포함된 전체 폴더를 [!DNL Assets](으)로 업로드할 수 있습니다. 이렇게 하면 폴더 내의 모든 에셋을 한 번에 하나씩 업로드할 필요 없이 일괄 업로드합니다.
+[!DNL Experience Manager] 데스크톱 앱을 사용하면 로컬 파일 디렉터리에서 자산이 포함된 전체 폴더를 [!DNL Assets] (으)로 업로드할 수 있습니다. 이렇게 하면 폴더 내의 모든 에셋을 한 번에 하나씩 업로드할 필요 없이 일괄 업로드합니다.
 
 1. Assets UI에서 도구 모음에서 **만들기**&#x200B;를 클릭/탭한 다음 메뉴에서 **폴더 업로드**&#x200B;를 선택합니다.
 1. 업로드할 폴더를 찾아 선택합니다.

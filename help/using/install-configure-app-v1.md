@@ -95,7 +95,7 @@ macOS X에서 유사한 디렉터리는 `~/Library/Group Containers/group.com.ad
 
 ### 캐시 관리를 위한 인앱 옵션 {#in-app-option-to-manage-cache}
 
-로컬 캐싱에 사용할 수 있는 디스크 공간의 크기를 제어할 수 있습니다. Assets 서버의 아티팩트는 보다 원활한 경험을 위해 로컬에 캐시됩니다. 요구 사항에 맞게 기본값을 변경할 수 있습니다. 또한 캐시를 지우면 모든 에셋을 새로 가져올 수 있습니다. 원하는 옵션을 설정하려면 응용 프로그램의 아이콘을 클릭하고 **[!UICONTROL Advanced]** > **[!UICONTROL Manage Cache]**&#x200B;을(를) 클릭합니다. ****
+로컬 캐싱에 사용할 수 있는 디스크 공간의 크기를 제어할 수 있습니다. Assets 서버의 아티팩트는 보다 원활한 경험을 위해 로컬에 캐시됩니다. 요구 사항에 맞게 기본값을 변경할 수 있습니다. 또한 캐시를 지우면 모든 에셋을 새로 가져올 수 있습니다. 원하는 옵션을 설정하려면 응용 프로그램의 아이콘을 클릭하고 **[!UICONTROL Advanced]** > **[!UICONTROL Manage Cache]**&#x200B;을(를) 클릭합니다. **&#x200B;**
 
 >[!NOTE]
 >
@@ -127,6 +127,6 @@ macOS X에서 유사한 디렉터리는 `~/Library/Group Containers/group.com.ad
 
 >[!MORELIKETHIS]
 >
-* [데스크톱 앱 소개 [!DNL Experience Manager] 2}를 시청하십시오(5분 43초).](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
-* [사용 [!DNL Experience Manager] 데스크톱 앱](use-app-v1.md).
-* [문제 해결 [!DNL Experience Manager] 데스크톱 앱](troubleshoot-app-v1.md).
+>* [데스크톱 앱 소개 [!DNL Experience Manager] 2&rbrace;를 시청하십시오(5분 43초).](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
+>* [사용 [!DNL Experience Manager] 데스크톱 앱](use-app-v1.md).
+>* [문제 해결 [!DNL Experience Manager] 데스크톱 앱](troubleshoot-app-v1.md).

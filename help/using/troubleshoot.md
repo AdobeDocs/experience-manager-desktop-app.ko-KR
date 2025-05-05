@@ -161,7 +161,7 @@ Windows에서 디버그 모드를 활성화하려면:
 
 ### 데스크톱 앱의 사용자 인터페이스에 있는 파일에 대한 편집이 [!DNL Adobe Experience Manager]에 즉시 반영되지 않습니다. {#changes-on-da-not-visible-on-aem}
 
-[!DNL Adobe Experience Manager] 데스크톱 앱에서는 사용자가 파일 편집이 모두 완료되는 시기를 결정할 수 있도록 합니다. 파일의 크기와 복잡성에 따라 새 버전의 파일을 [!DNL Adobe Experience Manager](으)로 다시 전송하는 데 상당한 시간이 소요됩니다. 이 애플리케이션은 편집 완료로 추정되는 시점을 기준으로 파일을 자동으로 업로드하는 대신 파일 전송 수를 최소화하도록 설계되었습니다. 사용자가 파일의 변경 내용을 업로드하도록 선택하여 파일을 다시 [!DNL Adobe Experience Manager](으)로 전송하는 것이 좋습니다.
+[!DNL Adobe Experience Manager] 데스크톱 앱에서는 사용자가 파일 편집이 모두 완료되는 시기를 결정할 수 있도록 합니다. 파일의 크기와 복잡성에 따라 새 버전의 파일을 [!DNL Adobe Experience Manager] (으)로 다시 전송하는 데 상당한 시간이 소요됩니다. 이 애플리케이션은 편집 완료로 추정되는 시점을 기준으로 파일을 자동으로 업로드하는 대신 파일 전송 수를 최소화하도록 설계되었습니다. 사용자가 파일의 변경 내용을 업로드하도록 선택하여 파일을 다시 [!DNL Adobe Experience Manager] (으)로 전송하는 것이 좋습니다.
 
 ### macOS에서 업그레이드 시 문제 {#issues-when-upgrading-on-macos}
 

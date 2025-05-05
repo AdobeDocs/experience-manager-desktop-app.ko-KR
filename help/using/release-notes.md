@@ -23,7 +23,7 @@ ht-degree: 11%
 
 **지원되는 [!DNL Experience Manager] 버전**&#x200B;은(는) 다음과 같습니다.
 
-* [!DNL Experience Manager]을(를) [!DNL Cloud Service](으)로 설정합니다. [릴리스 정보](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/release-notes/home)를 참조하세요.
+* [!DNL Experience Manager]을(를) [!DNL Cloud Service] (으)로 설정합니다. [릴리스 정보](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/release-notes/home)를 참조하세요.
 * [!DNL Experience Manager] 6.5.0 이상, Adobe Managed Services(AMS) 또는 온-프레미스. [서비스 팩 릴리스 정보](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/release-notes/release-notes)를 참조하세요.
 
 [!DNL Adobe Experience Manager] 데스크톱 앱은 다음 **운영 체제**&#x200B;에서 사용할 수 있습니다.
@@ -193,7 +193,7 @@ AEM Desktop App 버전 2.3.1 이상 버전에서는 두 버전의 Windows Instal
 
 애플리케이션 및 애플리케이션 작동 방식에 대한 다음 내용을 알고 있어야 합니다.
 
-* [!DNL Experience Manager](으)로 에셋 바이너리를 완전히 전송해야 하는 작업에 대한 모든 권한을 응용 프로그램에서 제공합니다(**열기**, **편집**, **변경 내용 업로드** 및 **Assets 업로드**).
+* [!DNL Experience Manager] (으)로 에셋 바이너리를 완전히 전송해야 하는 작업에 대한 모든 권한을 응용 프로그램에서 제공합니다(**열기**, **편집**, **변경 내용 업로드** 및 **Assets 업로드**).
 
    * 데스크탑에서 자산으로 작업하려면 개별적으로, 폴더로 또는 다중 선택을 통해 열기, 편집 또는 데스크탑으로 다운로드를 명시적으로 수행해야 합니다.
 

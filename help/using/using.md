@@ -35,7 +35,7 @@ ht-degree: 0%
 
 * 파일 상태가 **[!UICONTROL Available locally]**&#x200B;입니다. 자산이 다운로드되어 로컬 컴퓨터에서 그대로 사용할 수 있습니다. 자산은 변경되지 않습니다.
 
-* 파일 상태가 **[!UICONTROL Edited locally]**&#x200B;입니다. 이러한 자산은 로컬에서 수정되고 변경 내용은 [!DNL Experience Manager] 서버에 업로드된 상태로 유지됩니다. 업로드한 후에는 상태가 [!UICONTROL Available locally](으)로 변경됩니다. [자산 편집](using.md#edit-assets-upload-updated-assets)을 참조하세요.
+* 파일 상태가 **[!UICONTROL Edited locally]**&#x200B;입니다. 이러한 자산은 로컬에서 수정되고 변경 내용은 [!DNL Experience Manager] 서버에 업로드된 상태로 유지됩니다. 업로드한 후에는 상태가 [!UICONTROL Available locally] (으)로 변경됩니다. [자산 편집](using.md#edit-assets-upload-updated-assets)을 참조하세요.
 
 * 파일 상태는 **[!UICONTROL Editing conflict]**&#x200B;입니다. 사용자와 다른 사용자가 동시에 자산을 편집하는 경우, 앱은 편집 충돌이 발생했음을 나타냅니다. 또한 앱은 변경 내용을 유지하거나 취소할 수 있는 옵션을 제공합니다. [편집 충돌을 피하는 방법](using.md#adv-workflow-collaborate-avoid-conflicts)을 참조하세요.
 
@@ -356,7 +356,7 @@ Assets 웹 인터페이스에서 다음 작업을 시도할 때 데스크탑 앱
 
 [!DNL Experience Manager] 데스크톱 앱을 사용하여 연결된 자산이 있는 파일을 열면 자산이 미리 다운로드되어 기본 응용 프로그램에 배치된 것으로 나타납니다. 이 워크플로가 작동하려면 기본 응용 프로그램에서 로컬 자산에 대한 링크 배치를 지원해야 하며 [!DNL Experience Manager]에서 서버측 참조에 대한 이진 파일의 이러한 링크 해결을 지원해야 합니다.
 
-[!DNL Experience Manager] 데스크톱 앱은 Adobe InDesign, Adobe Illustrator 및 Adobe Photoshop과 같은 몇 가지 Adobe Creative Cloud 데스크톱 응용 프로그램 및 파일 형식을 사용하여 이 워크플로를 지원합니다. 워크플로를 사용하면 지원되는 Creative Cloud 파일을 효율적으로 작업할 수 있습니다. 사용자 A가 InDesign 파일에 자산을 추가하고 [!DNL Experience Manager](으)로 체크 인하면 사용자 B가 해당 파일에 속하지 않더라도 파일에 있는 자산을 볼 수 있습니다. 자산은 사용자 B의 컴퓨터에 로컬로 다운로드됩니다.
+[!DNL Experience Manager] 데스크톱 앱은 Adobe InDesign, Adobe Illustrator 및 Adobe Photoshop과 같은 몇 가지 Adobe Creative Cloud 데스크톱 응용 프로그램 및 파일 형식을 사용하여 이 워크플로를 지원합니다. 워크플로를 사용하면 지원되는 Creative Cloud 파일을 효율적으로 작업할 수 있습니다. 사용자 A가 InDesign 파일에 자산을 추가하고 [!DNL Experience Manager] (으)로 체크 인하면 사용자 B가 해당 파일에 속하지 않더라도 파일에 있는 자산을 볼 수 있습니다. 자산은 사용자 B의 컴퓨터에 로컬로 다운로드됩니다.
 
 >[!NOTE]
 >

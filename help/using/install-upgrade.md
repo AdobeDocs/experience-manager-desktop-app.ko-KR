@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # [!DNL Adobe Experience Manager] 데스크톱 앱 설치 {#install-app-v2}
 
-[!DNL Adobe Experience Manager] 데스크톱 앱을 사용하면 [!DNL Experience Manager] 내의 자산을 로컬 데스크톱에서 쉽게 사용할 수 있으며 모든 기본 데스크톱 응용 프로그램에서 사용할 수 있습니다. Assets은 데스크탑 앱에서 미리 보고 열 수 있습니다. Finder 또는 Explorer에서 문서에 사용할 수 있도록 표시하고 로컬에서 편집할 수 있습니다. 변경 사항이 [!DNL Experience Manager](으)로 다시 저장되며 업로드 시 새 버전이 만들어집니다.
+[!DNL Adobe Experience Manager] 데스크톱 앱을 사용하면 [!DNL Experience Manager] 내의 자산을 로컬 데스크톱에서 쉽게 사용할 수 있으며 모든 기본 데스크톱 응용 프로그램에서 사용할 수 있습니다. Assets은 데스크탑 앱에서 미리 보고 열 수 있습니다. Finder 또는 Explorer에서 문서에 사용할 수 있도록 표시하고 로컬에서 편집할 수 있습니다. 변경 사항이 [!DNL Experience Manager] (으)로 다시 저장되며 업로드 시 새 버전이 만들어집니다.
 
 이러한 통합을 통해 조직의 다양한 역할이 다음을 수행할 수 있습니다.
 

@@ -31,7 +31,7 @@ Adobe는 LOB(Line of Business) 사용자와 크리에이티브 사용자의 생�
 | 데스크탑 앱을 사용하신 적이 있습니까? 업그레이드하여 원활하게 전환하시겠습니까? | [이전 버전에서 업그레이드](install-upgrade.md#upgrade-from-previous-version) |
 | 시작하여 실행 중입니다. 기본 환경 설정을 조정하시겠습니까? | [앱 설치 및 구성](install-upgrade.md) |
 | 찾아보기, 검색, 편집, 업로드, 충돌 해결, 일괄 작업 등에 사용하는 방법을 알아봅니다. | [데스크톱 앱 사용 [!DNL Experience Manager] 사용](using.md) |
-| 문제가 발생했습니까? | [데스크톱 앱 문제 해결 [!DNL Experience Manager] 2}](troubleshoot.md) |
+| 문제가 발생했습니까? | [데스크톱 앱 문제 해결 [!DNL Experience Manager] 2&rbrace;](troubleshoot.md) |
 
 ## 앱의 새로운 기능 {#whats-new-v2}
 
