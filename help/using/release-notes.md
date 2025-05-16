@@ -4,39 +4,48 @@ description: ' [!DNL Adobe Experience Manager] 데스크톱 앱에 대한 릴리
 mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-source-git-commit: 19f059875a7519cf28628fd801662da7243b077b
+source-git-commit: b5dace65444ca15d09ec8648deb4c262415f40cf
 workflow-type: tm+mt
-source-wordcount: '1955'
-ht-degree: 11%
+source-wordcount: '2195'
+ht-degree: 10%
 
 ---
 
 # [!DNL Adobe Experience Manager] 데스크톱 앱 릴리스 노트 {#release-notes-v2}
 
-최신 데스크탑 앱 버전 2.3.1의 릴리스 정보는 다음과 같습니다. 릴리스 날짜는 2024년 7월 25일입니다.
+최신 데스크탑 앱 버전 2.3.3의 릴리스 정보는 다음과 같습니다. 릴리스 날짜는 2025년 5월 16일입니다.
 
 최신 버전의 데스크탑 앱에는 다음과 같은 버그 수정 및 개선 사항이 포함되어 있습니다.
 
-* 새 Enterprise Windows Installer는 프로그램 파일 아래에 응용 프로그램을 설치합니다.
-* AEM 및 SSO 로그인 중 **기본 인증**&#x200B;을 지원합니다.
-* 업로드 작업 중 허용된 구성 가능한 에셋 수.
+* 로컬 컴퓨터에서 새로 만든 자산을 중앙 저장소가 저장된 AEM으로 업로드하고 데스크탑 앱에서 볼 수 있습니다.
+* 자동 새로 고침 기능은 콘텐츠를 실시간으로 자동으로 업데이트하므로 수동으로 페이지를 다시 로드하고 업데이트된 에셋 목록을 가져오지 않고 항상 최신 정보를 볼 수 있습니다.
+* 폴더 고정 또는 고정 해제 기능을 사용하면 중요한 폴더를 고정하여 쉽게 액세스할 수 있도록 하거나 더 이상 필요하지 않을 때 고정 해제하여 보기를 해제할 수 있습니다.
+* 제목 이름 바꾸기 기능을 사용하면 에셋의 제목을 쉽게 업데이트하거나 수정할 수 있으므로 콘텐츠가 발전함에 따라 이름을 정확하고 체계적으로 지정할 수 있습니다.
+* 파일 복제 작업을 사용하여 로컬 및 클라우드 위치에 파일을 복제하여 원본 파일을 보존하고 유사한 파일을 변경할 수 있습니다.
+* 체크 인 및 체크 아웃 기능을 사용하면 파일을 편집(체크 아웃)할 수 있도록 잠그고 변경 내용을 다른 사용자가 사용할 수 있도록 설정(체크 인)하여 파일 액세스를 관리할 수 있습니다.
+* 컬렉션을 보고, 다운로드하고, 검색할 수 있습니다.
+* 새 폴더를 만들 때 메타데이터를 할당할 수 있습니다.
 
 **지원되는 [!DNL Experience Manager] 버전**&#x200B;은(는) 다음과 같습니다.
 
-* [!DNL Experience Manager]을(를) [!DNL Cloud Service] (으)로 설정합니다. [릴리스 정보](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/release-notes/home)를 참조하세요.
-* [!DNL Experience Manager] 6.5.0 이상, Adobe Managed Services(AMS) 또는 온-프레미스. [서비스 팩 릴리스 정보](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/release-notes/release-notes)를 참조하세요.
+* [!DNL Experience Manager]을(를) [!DNL Cloud Service]&#x200B;(으)로 설정합니다. [릴리스 정보](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/release-notes/home)를 참조하세요.
+* Adobe Managed Services(AMS) 또는 온프레미스에서 [!DNL Experience Manager] 6.5.0 이상 [서비스 팩 릴리스 정보](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/release-notes/release-notes)를 참조하세요.
 
 [!DNL Adobe Experience Manager] 데스크톱 앱은 다음 **운영 체제**&#x200B;에서 사용할 수 있습니다.
 
 * macOS X 10.14 이상(최신 버그 수정 포함)
 * 최신 서비스 팩 및 버그 수정 사항이 포함된 Windows 10.
 
-AEM Desktop App 버전 2.3.1 이상 버전에서는 두 버전의 Windows Installer를 사용할 수 있습니다. 기본 설치 관리자는 사용자의 로컬 앱 데이터 디렉터리 아래에 AEM Desktop App을 설치합니다. Adobe은 대부분의 사용자에게 이 설치 프로세스를 권장합니다. 공유 프로그램 파일 디렉터리 아래에 AEM 데스크톱 앱을 설치하는 Enterprise Windows 설치 프로그램도 사용할 수 있습니다. 이 두 설치 관리자는 기능에 차이점 없이 동일한 버전의 AEM Desktop App을 설치합니다.
+AEM Desktop App 버전 2.3.1 이상 버전에서는 두 버전의 Windows Installer를 사용할 수 있습니다. 기본 설치 관리자는 사용자의 로컬 앱 데이터 디렉터리 아래에 AEM 데스크톱 앱을 설치합니다. Adobe은 대부분의 사용자에게 이 설치 프로세스를 권장합니다. 공유 프로그램 파일 디렉터리 아래에 AEM 데스크톱 앱을 설치하는 Enterprise Windows 설치 프로그램도 사용할 수 있습니다. 이 두 설치 관리자는 기능의 차이 없이 동일한 버전의 AEM 데스크탑 앱을 설치합니다.
 
 지원되는 OS의 **다운로드 URL**&#x200B;은(는) 다음과 같습니다.
 
 | 운영 체제 | [!DNL Experience Manager] as a [!DNL Cloud Service] | [!DNL Experience Manager] 6.x |
 |---|---|---|
+| macOS (v2.3.3) | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-x64-2.3.3.dmg) | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-x64-2.3.3.dmg) |
+| macOS Apple 실리콘(M1)(v2.3.3) | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-arm64-2.3.3.dmg) | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-arm64-2.3.3.dmg) |
+| Windows 64비트(v2.3.3) | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-2.3.3.exe) | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-2.3.3.exe) |
+| Windows 64비트 Enterprise(v2.3.3) | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-2.3.3.msi) | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-2.3.3.msi) |
 | macOS (v2.3.1) | [다운로드 링크](https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Fexperience.adobe.com%2F%23%2Fdownloads%2Fcontent%2Fsoftware-distribution%2Fen%2Faemcloud.html%3Fpackage%3D%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faemcloud%2Fpublic%2Faem-desktop-app%2Faem-desktop-osx-x64-2.3.1.dmg&amp;data=05%7C02%7Canujm%40adobe.com%7Cfcf599743bd649c5cd7308dcab9ea5cd%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C638573945081954149%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&amp;sdata=mwSX5ilZL0he2raIx8t5ecQ%2FWuizky4MpcCXX3mEN38%3D&amp;reserved=0) | [다운로드 링크](https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Fexperience.adobe.com%2F%23%2Fdownloads%2Fcontent%2Fsoftware-distribution%2Fen%2Faem.html%3Fpackage%3D%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Fadobe%2Fpackages%2Fadobe%2Faem-desktop-app%2Faem-desktop-osx-x64-2.3.1.dmg&amp;data=05%7C02%7Canujm%40adobe.com%7Cfcf599743bd649c5cd7308dcab9ea5cd%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C638573945081981239%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&amp;sdata=LJH3OCFq7yRykN4wU8HN9%2FBXC%2BjfXLJH4QizeFZfRHE%3D&amp;reserved=0) |
 | macOS Apple 실리콘(M1)(v2.3.1) | [다운로드 링크](https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Fexperience.adobe.com%2F%23%2Fdownloads%2Fcontent%2Fsoftware-distribution%2Fen%2Faemcloud.html%3Fpackage%3D%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faemcloud%2Fpublic%2Faem-desktop-app%2Faem-desktop-osx-arm64-2.3.1.dmg&amp;data=05%7C02%7Canujm%40adobe.com%7Cfcf599743bd649c5cd7308dcab9ea5cd%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C638573945081965822%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&amp;sdata=2YENn0tDduiucogClt6aBZHDOE6dbzBdigq8VQawIO0%3D&amp;reserved=0) | [다운로드 링크](https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Fexperience.adobe.com%2F%23%2Fdownloads%2Fcontent%2Fsoftware-distribution%2Fen%2Faem.html%3Fpackage%3D%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Fadobe%2Fpackages%2Fadobe%2Faem-desktop-app%2Faem-desktop-osx-arm64-2.3.1.dmg&amp;data=05%7C02%7Canujm%40adobe.com%7Cfcf599743bd649c5cd7308dcab9ea5cd%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C638573945081986151%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&amp;sdata=jCepldg4dMej0%2BrK2mUonXwqsWL8ksE8%2BLMSgsH9qTA%3D&amp;reserved=0) |
 | Windows 64비트(v2.3.1) | [다운로드 링크](https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Fexperience.adobe.com%2F%23%2Fdownloads%2Fcontent%2Fsoftware-distribution%2Fen%2Faemcloud.html%3Fpackage%3D%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faemcloud%2Fpublic%2Faem-desktop-app%2Faem-desktop-win-x64-2.3.1.exe&amp;data=05%7C02%7Canujm%40adobe.com%7Cfcf599743bd649c5cd7308dcab9ea5cd%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C638573945081970892%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&amp;sdata=sRn2UWW%2Bi7SMEvSO74ZGGvJ40vHh1KhLc7zAfKc37Es%3D&amp;reserved=0) | [다운로드 링크](https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Fexperience.adobe.com%2F%23%2Fdownloads%2Fcontent%2Fsoftware-distribution%2Fen%2Faem.html%3Fpackage%3D%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Fadobe%2Fpackages%2Fadobe%2Faem-desktop-app%2Faem-desktop-win-x64-2.3.1.exe&amp;data=05%7C02%7Canujm%40adobe.com%7Cfcf599743bd649c5cd7308dcab9ea5cd%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C638573945081991004%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&amp;sdata=aQWZtEK%2F3cWX8n8Au%2FwZ5Zd9xPVo5phvk%2FuF%2Be0HRrE%3D&amp;reserved=0) |
@@ -79,13 +88,19 @@ AEM Desktop App 버전 2.3.1 이상 버전에서는 두 버전의 Windows Instal
 
 * 경로는 기본 앱에서 파일의 XMP 레코드에 저장합니다.
 
-* [!DNL Experience Manager]이(가) 자산의 메타데이터 레코드 경로가 포함된 XMP 레코드를 추출했습니다.
+* [!DNL Experience Manager]이(가) 에셋의 메타데이터 레코드에 대한 경로를 사용하여 XMP 레코드를 추출했습니다.
 
 * 경로가 [!DNL Experience Manager]의 자산에 일치할 수 있습니다. 즉, 배치된 파일이 일치하는 경로 아래의 [!DNL Experience Manager]에도 있습니다.
 
 ## 새로운 기능, 개선 사항 및 버그 수정 {#what-is-new}
 
 자세한 내용은 [v2.0의 새로운 기능](introduction.md#whats-new-v2)을 참조하세요.
+
+**앱 v2.3.1의 업데이트**
+
+* 새 Enterprise Windows Installer는 프로그램 파일 아래에 응용 프로그램을 설치합니다.
+* AEM 및 SSO 로그인 중 **기본 인증**&#x200B;을 지원합니다.
+* 업로드 작업 중 허용된 구성 가능한 에셋 수
 
 **앱 v2.3.0의 업데이트**
 
@@ -193,7 +208,7 @@ AEM Desktop App 버전 2.3.1 이상 버전에서는 두 버전의 Windows Instal
 
 애플리케이션 및 애플리케이션 작동 방식에 대한 다음 내용을 알고 있어야 합니다.
 
-* [!DNL Experience Manager] (으)로 에셋 바이너리를 완전히 전송해야 하는 작업에 대한 모든 권한을 응용 프로그램에서 제공합니다(**열기**, **편집**, **변경 내용 업로드** 및 **Assets 업로드**).
+* [!DNL Experience Manager]&#x200B;(으)로 에셋 바이너리를 완전히 전송해야 하는 작업에 대한 모든 권한을 응용 프로그램에서 제공합니다(**열기**, **편집**, **변경 내용 업로드** 및 **Assets 업로드**).
 
    * 데스크탑에서 자산으로 작업하려면 개별적으로, 폴더로 또는 다중 선택을 통해 열기, 편집 또는 데스크탑으로 다운로드를 명시적으로 수행해야 합니다.
 
@@ -209,7 +224,7 @@ AEM Desktop App 버전 2.3.1 이상 버전에서는 두 버전의 Windows Instal
 
 * [!UICONTROL Reveal File] 작업을 사용할 때 표시되는 로컬 네트워크 공유에는 로컬에서 사용할 수 있는 파일(및 폴더)만 표시됩니다. 로컬 네트워크 공유에 표시되는 적합한 자산을 가져올 수 있도록 [!UICONTROL Reveal File] 및 [!UICONTROL Reveal Folder]에서 자산을 미리 다운로드합니다.
 
-* SMB(Mac)/WebDAV(Win) 로컬 네트워크 공유는 Adobe Creative Cloud 앱이 Creative Cloud 앱의 기본 파일에 연결/배치된 에셋 파일을 읽을 때 사용됩니다.
+* SMB(Mac)/WebDAV(Win) 로컬 네트워크 공유는 Adobe Creative Cloud 앱이 Creative Cloud 앱의 기본 파일에 연결/배치된 자산 파일을 읽을 때 사용됩니다.
 
 다음 다이어그램은 사용자 작업에서 시작된 자산과 파일의 클라우드와 로컬 파일 시스템 간 흐름을 보여줍니다.
 
