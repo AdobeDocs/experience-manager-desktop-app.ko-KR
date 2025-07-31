@@ -8,20 +8,27 @@ user-guide-description: Experience Manager 데스크탑 앱을 통해 저장소�
 feature-set: Experience Manager Assets,Experience Manager
 feature: Desktop App
 role: User, Admin
-source-git-commit: 5676e7ece8bb43f051dae72d17e15ab1c34caefc
+source-git-commit: 3f9f5da87647b552e31fae9d19226ac6d20e336f
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 59%
+source-wordcount: '85'
+ht-degree: 48%
 
 ---
 
 
-# Adobe 데스크탑 앱 안내서 {#using}
+# Adobe Experience Manager Desktop App 안내서 {#get-started}
 
 + [개요](introduction.md)
 + [릴리스 정보](release-notes.md)
 + [설치 또는 업그레이드](install-upgrade.md)
-+ [앱 사용](using.md)
++ [AEM 데스크탑 앱 사용 시작하기](get-started.md)
++ [사용자 인터페이스](user-interface.md)
++ [검색](search.md)
++ [데스크탑 앱 사용](using-desktop-app.md)
++ [Assets 관리](assets-management-tasks.md)
++ [자산 다운로드](download-assets.md)
++ [자산 업로드](upload-assets.md)
++ [여러 에셋을 사용한 작업](working-with-multiple-assets.md)
 + [문제 해결](troubleshoot.md)
 + 이전 버전의 도움말 {#archive}
    + [릴리스 노트 v1](release-notes-of-v1.md)
