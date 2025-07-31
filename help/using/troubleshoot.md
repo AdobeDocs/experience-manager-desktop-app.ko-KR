@@ -21,7 +21,7 @@ ht-degree: 0%
 
 * **데스크톱 앱의 작동 방식을 이해합니다**: 응용 프로그램 사용을 시작하기 전에 앱이 어떻게 작동하는지 알고 잠시 시간을 보내십시오. [!DNL Experience Manager] 웹 인터페이스와 데스크톱 간의 연결, 저장소 매핑, 에셋 캐싱, 로컬로 저장 및 백그라운드에서 업로드에 대해 알아봅니다. [작동 방법](release-notes.md#how-app-works)을 참조하세요.
 
-* **폴더 이름에 지원되지 않는 문자를 사용하지 마십시오**: 폴더를 만들거나 업로드할 때 공백과 잘못된 문자를 사용하지 마십시오. [폴더 만들기 [!DNL Adobe Experience Manager Assets]](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/managing/manage-assets#creating-folders)에서 문자 목록을 확인하세요. 폴더 이름에 지원되지 않는 문자가 일부 [!DNL Experience Manager]개의 사용 사례에 영향을 줄 수 있습니다.
+* **폴더 이름에 지원되지 않는 문자를 사용하지 마십시오**: 폴더를 만들거나 업로드할 때 공백과 잘못된 문자를 사용하지 마십시오. [폴더 만들기 [!DNL Adobe Experience Manager Assets]](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/assets/managing/manage-assets#creating-folders)에서 문자 목록을 확인하세요. 폴더 이름에 지원되지 않는 문자가 일부 [!DNL Experience Manager]개의 사용 사례에 영향을 줄 수 있습니다.
 
 * **충돌을 방지하는 모범 사례**: 여러 에셋에 대해 공동 작업을 수행할 때 발생할 수 있는 충돌을 방지하려면 [충돌을 피하려면](assets-management-tasks.md#adv-workflow-collaborate-avoid-conflicts)(으)로 이동하십시오.
 
@@ -301,8 +301,8 @@ SAML 프로세스가 이러한 브라우저를 지원하는지 확인합니다.
 
 [!DNL Experience Manager] 사용자 인터페이스 내에서 자산을 검색할 때 만료된 자산이 표시되지 않습니다. 관리자는 데스크탑 앱과 자산 링크에서 검색할 때 만료된 자산을 보고 검색하고 가져오지 않도록 설정을 구성할 수 있습니다. 이렇게 하면 이러한 작업 중에 만료된 에셋에 액세스할 수 없게 됩니다. 이 구성은 관리자 권한과 관계없이 모든 사용자에 대해 작동합니다.
 
-* [만료된 자산을 숨기는 Experience Manager 6.5의 구성](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/managing/manage-assets#hide-expired-assets-via-acp-api).
-* [만료된 자산을 숨기기 위한 Experience Manager as a Cloud Service의 구성](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets#hide-expired-assets-via-acp-api).
+* [만료된 자산을 숨기는 Experience Manager 6.5의 구성](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/assets/managing/manage-assets#hide-expired-assets-via-acp-api).
+* [만료된 자산을 숨기기 위한 Experience Manager as a Cloud Service의 구성](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets#hide-expired-assets-via-acp-api).
 
 <!--
 ### Need additional help with [!DNL Experience Manager] desktop app {#additional-help}
