@@ -18,7 +18,7 @@ ht-degree: 0%
 
 [!DNL Experience Manager] 데스크톱 앱 v1을 사용하여 수행하는 주요 작업은 다음과 같습니다.
 
-1. [ [!DNL Experience Manager] 서버와 연결](#installandconnect)
+1. [&#x200B; [!DNL Experience Manager] 서버와 연결](#installandconnect)
 1. [데스크탑 앱에서 바로 자산 열기](#openondesktop)
 1. [데스크탑 앱에서 자산 편집 및 체크아웃](#workonassets)
 1. [에셋 및 폴더 일괄 업로드](#bulkupload)

@@ -20,7 +20,7 @@ ht-degree: 0%
 
 [!DNL Adobe Experience Manager] 데스크톱 앱을 사용하여 수행하는 주요 작업은 다음과 같습니다.
 
-![ 데스크톱 앱을 사용하여 수행할 수 있는 [!DNL Experience Manager]워크플로 및 작업](assets/aem_desktop_app_usecases_v2.png)
+![&#x200B; 데스크톱 앱을 사용하여 수행할 수 있는 [!DNL Experience Manager]워크플로 및 작업](assets/aem_desktop_app_usecases_v2.png)
 
 ## 데스크탑 앱 작동 방식 {#how-app-works2}
 
