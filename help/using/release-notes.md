@@ -4,67 +4,32 @@ description: ' [!DNL Adobe Experience Manager] 데스크톱 앱에 대한 릴리
 mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-source-git-commit: 3ee1e39553b81e335e07c278537a826df3ad9482
+source-git-commit: 64c918a17efd082aee2d63f1379023b1da05a13b
 workflow-type: tm+mt
-source-wordcount: '2502'
-ht-degree: 9%
+source-wordcount: '2662'
+ht-degree: 8%
 
 ---
 
 # [!DNL Adobe Experience Manager] 데스크톱 앱 릴리스 노트 {#release-notes-v2}
 
-최신 데스크탑 앱 버전 3.0.0의 릴리스 정보는 다음과 같습니다. 릴리스 날짜는 2025년 7월 31일입니다.
+데스크탑 앱 버전 3.0.1의 릴리스 날짜는 2025년 12월 18일입니다.  릴리스에는 다음과 같은 개선 사항이 포함됩니다.
 
-이 릴리스에는 컬렉션, 업로드, 체크인/체크아웃, 메타데이터 관리 및 전반적인 유용성에 대한 여러 가지 개선 사항이 있습니다. 이러한 업데이트는 효율성을 개선하고 에셋 처리를 간소화하며 AEM 데스크탑 앱에서 보다 직관적인 실시간 경험을 제공합니다.
+**더 유연하고 안정적인 워크플로**
 
-![데스크톱 앱 사용자 인터페이스](assets/dekktop-app-user-interface.png)
+* AEM 데스크탑 앱과 AEM 작성자 간의 동기화 문제를 수정하여 일관된 폴더 이름 지정을 확인했습니다.
+* 활성 전송 작업 중 전체 애플리케이션 기능을 허용하여 중단 없는 워크플로우를 활성화했습니다.
+* 폴더 속성 페이지의 안정성이 향상되어 폴더 메타데이터 및 설정에 일관되게 액세스할 수 있습니다.
 
-**컬렉션**
+**더 빠르고 반응적인 사용자 경험**
 
-* 이제 컬렉션을 보고, 다운로드하고, 검색할 수 있습니다.
+* 차단 I/O를 비동기 처리로 대체하여 UI 응답성을 개선하고 로드가 많은 작업 중에 더 원활한 경험을 제공합니다.
+* 업로드 및 다운로드 흐름에 페이지 매김을 도입하여 대용량 파일 전송을 개선하여 대용량 데이터 세트를 효율적으로 처리할 수 있습니다.
 
-* 컬렉션 내에서 사용할 수 있는 폴더를 다운로드하는 데 대한 지원이 추가되었습니다.
+**안정성 및 안정성 향상**
 
-* 이제 자동 동기화 기능을 사용하여 컬렉션 내에서 다운로드한 자산을 활성화하면 AEM 자산 관리를 로컬 파일 시스템과 정기적으로 동기화할 수 있습니다.
-
-* 컬렉션의 일부인 에셋을 업데이트하면 시스템이 임시 캐시 폴더 및 데스크탑 앱 UI에서 에셋을 자동으로 업데이트합니다.
-
-**업로드**
-
-* 로컬 컴퓨터에서 새로 만든 자산을 중앙 저장소가 저장된 AEM으로 업로드하고 데스크탑 앱에서 볼 수 있습니다.
-
-* 이제 데스크탑 앱에서 로컬 파일 시스템의 이미 다운로드한 폴더에서 만든 새 파일을 자동으로 식별하고 AEM으로 업로드합니다. 로컬 파일 시스템에서 새 파일을 식별하려면 데스크톱 앱을 열어 두어야 합니다.
-
-**체크인 및 체크아웃**
-
-* 체크 인 및 체크 아웃 기능을 사용하면 파일을 편집(체크 아웃)할 수 있도록 잠그고 변경 내용을 다른 사용자가 사용할 수 있도록 설정(체크 인)하여 파일 액세스를 관리할 수 있습니다.
-
-* 데스크탑 앱에서 대상 Creative Cloud 애플리케이션으로 에셋을 드래그하는 기능. 데스크탑 앱은 자동으로 자산을 체크아웃하고 로컬 파일 시스템에 다운로드합니다.
-
-**메타데이터**
-
-* 새 폴더를 만들 때 메타데이터를 할당할 수 있습니다.
-
-* 이제 Experience Manager Desktop App을 사용하여 에셋 또는 폴더를 새 위치로 이동하면서도 메타데이터를 보존할 수 있으므로 파일 시스템을 구성하고 간소화할 수 있습니다.
-
-* 이제 AEM 데스크탑 앱을 통해 폴더 썸네일, 크기, 경로, 생성 날짜, 태그, 메타데이터 등과 같은 폴더 속성을 볼 수 있습니다.
-
-**유용성 개선**
-
-
-* 자동 새로 고침 기능은 콘텐츠를 실시간으로 자동으로 업데이트하므로 수동으로 페이지를 다시 로드하고 업데이트된 에셋 목록을 가져오지 않고 항상 최신 정보를 볼 수 있습니다.
-
-* 폴더 고정 또는 고정 해제 기능을 사용하면 중요한 폴더를 고정하여 쉽게 액세스할 수 있도록 하거나 더 이상 필요하지 않을 때 고정 해제하여 보기를 해제할 수 있습니다.
-
-* 제목 이름 바꾸기 기능을 사용하면 에셋의 제목을 쉽게 업데이트하거나 수정할 수 있으므로 콘텐츠가 발전함에 따라 이름을 정확하고 체계적으로 지정할 수 있습니다.
-
-* 파일 복제 작업을 사용하여 로컬 및 클라우드 위치에 파일을 복제하여 원본 파일을 보존하고 유사한 파일을 변경할 수 있습니다.
-
-* 이제 내보내기 옵션을 사용하여 선택한 파일과 폴더를 데스크탑 앱에서 플랫 구조의 특정 대상 위치로 다운로드할 수 있습니다.
-
-* 이제 카드 보기, 그리드 보기 또는 트리 보기에서 에셋에 액세스하여 에셋의 깔끔하고 정리되어 시각적으로 매력적일 수 있습니다.
-
-* 애플리케이션을 보다 직관적으로 만들기 위해 UI에서 다양한 옵션에 대한 다양한 레이블을 업데이트합니다.
+* 데스크탑 앱 상호 작용에 의해 트리거된 작성자 서버 다시 시작을 해결하여 시스템 안정성을 크게 향상시켰습니다.
+* 대형 폴더(수천 개의 파일)를 다운로드하거나 업로드하는 동안 애플리케이션 충돌이 해결되었습니다.
 
 **지원되는 [!DNL Experience Manager] 버전**&#x200B;은(는) 다음과 같습니다.
 
@@ -82,6 +47,10 @@ AEM Desktop App 버전 2.3.1 이상 버전에서는 두 버전의 Windows Instal
 
 | 운영 체제 | [!DNL Experience Manager] as a [!DNL Cloud Service] | [!DNL Experience Manager] 6.x |
 |---|---|---|
+| macOS (v3.0.1) | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-x64-3.0.1.dmg) | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-x64-3.0.1.dmg) |
+| macOS Apple 실리콘(M1)(v3.0.1) | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-arm64-3.0.1.dmg) | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-arm64-3.0.1.dmg) |
+| Windows 64비트(v3.0.1) | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-3.0.1.exe) | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-3.0.1.exe) |
+| Windows 64비트 Enterprise(v3.0.1) | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-ent-3.0.1.msi) | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-ent-3.0.1.msi) |
 | macOS (v3.0.0) | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-x64-3.0.0.dmg) | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-x64-3.0.0.dmg) |
 | macOS Apple 실리콘(M1)(v3.0.0) | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-arm64-3.0.0.dmg) | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-arm64-3.0.0.dmg) |
 | Windows 64비트(v3.0.0) | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-3.0.0.exe) | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-3.0.0.exe) |
@@ -138,25 +107,77 @@ AEM Desktop App 버전 2.3.1 이상 버전에서는 두 버전의 Windows Instal
 
 ## 새로운 기능, 개선 사항 및 버그 수정 {#what-is-new}
 
-자세한 내용은 [v2.0의 새로운 기능](introduction.md#whats-new-v2)을 참조하세요.
+자세한 내용은 [v3.0.1의 새로운 기능](introduction.md#whats-new-v2)을 참조하세요.
 
-**앱 v2.3.1의 업데이트**
+### 앱 v3.0.0의 업데이트 {#app-version-3.0.0}
+
+이 릴리스에는 컬렉션, 업로드, 체크인/체크아웃, 메타데이터 관리 및 전반적인 유용성에 대한 여러 가지 개선 사항이 있습니다. 이러한 업데이트는 효율성을 개선하고 에셋 처리를 간소화하며 AEM 데스크탑 앱에서 보다 직관적인 실시간 경험을 제공합니다.
+
+![데스크톱 앱 사용자 인터페이스](assets/dekktop-app-user-interface.png)
+
+**컬렉션**
+
+* 이제 컬렉션을 보고, 다운로드하고, 검색할 수 있습니다.
+
+* 컬렉션 내에서 사용할 수 있는 폴더를 다운로드하는 데 대한 지원이 추가되었습니다.
+
+* 이제 자동 동기화 기능을 사용하여 컬렉션 내에서 다운로드한 자산을 활성화하면 AEM 자산 관리를 로컬 파일 시스템과 정기적으로 동기화할 수 있습니다.
+
+* 컬렉션의 일부인 에셋을 업데이트하면 시스템이 임시 캐시 폴더 및 데스크탑 앱 UI에서 에셋을 자동으로 업데이트합니다.
+
+**업로드**
+
+* 로컬 컴퓨터에서 새로 만든 자산을 중앙 저장소가 저장된 AEM으로 업로드하고 데스크탑 앱에서 볼 수 있습니다.
+
+* 이제 데스크탑 앱에서 로컬 파일 시스템의 이미 다운로드한 폴더에서 만든 새 파일을 자동으로 식별하고 AEM으로 업로드합니다. 로컬 파일 시스템에서 새 파일을 식별하려면 데스크톱 앱을 열어 두어야 합니다.
+
+**체크인 및 체크아웃**
+
+* 체크 인 및 체크 아웃 기능을 사용하면 파일을 편집(체크 아웃)할 수 있도록 잠그고 변경 내용을 다른 사용자가 사용할 수 있도록 설정(체크 인)하여 파일 액세스를 관리할 수 있습니다.
+
+* 데스크탑 앱에서 대상 Creative Cloud 애플리케이션으로 에셋을 드래그하는 기능. 데스크탑 앱은 자동으로 자산을 체크아웃하고 로컬 파일 시스템에 다운로드합니다.
+
+**메타데이터**
+
+* 새 폴더를 만들 때 메타데이터를 할당할 수 있습니다.
+
+* 이제 Experience Manager Desktop App을 사용하여 에셋 또는 폴더를 새 위치로 이동하면서도 메타데이터를 보존할 수 있으므로 파일 시스템을 구성하고 간소화할 수 있습니다.
+
+* 이제 AEM 데스크탑 앱을 통해 폴더 썸네일, 크기, 경로, 생성 날짜, 태그, 메타데이터 등과 같은 폴더 속성을 볼 수 있습니다.
+
+**유용성 개선**
+
+* 자동 새로 고침 기능은 콘텐츠를 실시간으로 자동으로 업데이트하므로 수동으로 페이지를 다시 로드하고 업데이트된 에셋 목록을 가져오지 않고 항상 최신 정보를 볼 수 있습니다.
+
+* 폴더 고정 또는 고정 해제 기능을 사용하면 중요한 폴더를 고정하여 쉽게 액세스할 수 있도록 하거나 더 이상 필요하지 않을 때 고정 해제하여 보기를 해제할 수 있습니다.
+
+* 제목 이름 바꾸기 기능을 사용하면 에셋의 제목을 쉽게 업데이트하거나 수정할 수 있으므로 콘텐츠가 발전함에 따라 이름을 정확하고 체계적으로 지정할 수 있습니다.
+
+* 파일 복제 작업을 사용하여 로컬 및 클라우드 위치에 파일을 복제하여 원본 파일을 보존하고 유사한 파일을 변경할 수 있습니다.
+
+* 이제 내보내기 옵션을 사용하여 선택한 파일과 폴더를 데스크탑 앱에서 플랫 구조의 특정 대상 위치로 다운로드할 수 있습니다.
+
+* 이제 카드 보기, 그리드 보기 또는 트리 보기에서 에셋에 액세스하여 에셋의 깔끔하고 정리되어 시각적으로 매력적일 수 있습니다.
+
+* 애플리케이션을 보다 직관적으로 만들기 위해 UI에서 다양한 옵션에 대한 다양한 레이블을 업데이트합니다.
+
+### 앱 v2.3.1의 업데이트 {#app-version-2.3.1}
 
 * 새 Enterprise Windows Installer는 프로그램 파일 아래에 응용 프로그램을 설치합니다.
 * AEM 및 SSO 로그인 중 **기본 인증**&#x200B;을 지원합니다.
 * 업로드 작업 중 허용된 구성 가능한 에셋 수
 
-**앱 v2.3.0의 업데이트**
+### 앱 v2.3.0의 업데이트 {#app-version-2.3.0}
 
 * IMS 로그인에 대한 지원이 추가되었습니다. IMS 통합을 통해 데스크탑 앱에서 액세스 토큰 새로 고침을 자동으로 수행하여 사용자가 최대 14일 동안 로그인 상태를 유지할 수 있습니다.
 
 * 기업 프록시 및 웹 필터링에 대한 지원이 개선되었습니다.
 
-**앱 v2.2.2의 업데이트**
+### 앱 v2.2.2의 업데이트 {#app-version-2.2.2}
 
 * (Windows 전용) 데스크탑 앱은 2.2.0 및 2.2.1 릴리스 버전을 설치한 후 빈 화면을 표시합니다.
 
-**앱 v2.2.1의 업데이트**
+### 앱 v2.2.1의 업데이트 {#app-version-2.2.1}
 
 * **[!UICONTROL Sign In]**&#x200B;을(를) 클릭하면 데스크톱 앱에 세션 시간 초과 오류 메시지가 표시됩니다.
 
@@ -164,41 +185,41 @@ AEM Desktop App 버전 2.3.1 이상 버전에서는 두 버전의 Windows Instal
 
 * **[!UICONTROL Edited Locally]**&#x200B;을(를) 클릭하여 자산을 정렬할 때 데스크톱 앱에 오류 메시지가 표시됩니다.
 
-**앱 v2.2.0의 업데이트**
+### 앱 v2.2.0의 업데이트 {#app-version-2.2.0}
 
 * Apple Silicon(M1) 지원
 
 * 데스크탑 앱에 로그온하는 동안 연결 문자열을 기억하는 기능.
 
-**앱 v2.1.5.0의 업데이트**
+### 앱 v2.1.5.0의 업데이트 {#app-version-2.1.5.0}
 
-* 중국어 문자가 포함된 폴더에 있는 파일을 업로드할 때 데스크탑 앱이 응답하지 않습니다(ASSETS-9237).
+* 중국어 문자가 포함된 폴더에 파일을 업로드할 때 데스크탑 앱이 응답하지 않습니다(ASSETS-9237).
 
 * 데스크탑 앱은 파일 이름의 점을 대시로 바꿉니다(ASSETS-10955).
 
-**앱 v2.1.4.0의 업데이트**
+### 앱 v2.1.4.0의 업데이트 {#app-version-2.1.4.0}
 
 애플리케이션의 새 버전은 버그 수정을 제공합니다.
 
-**앱 v2.1.3.4의 업데이트**
+### 앱 v2.1.3.4의 업데이트 {#app-version-2.1.3.4}
 
 애플리케이션의 새 버전은 버그 수정을 제공합니다.
 
-**앱 v2.1.3.3의 업데이트**
+### 앱 v2.1.3.3의 업데이트 {#app-version-2.1.3.3}
 
 애플리케이션의 새 버전은 버그 수정을 제공합니다.
 
-**앱 v2.1.3.2의 업데이트**
+### 앱 v2.1.3.2의 업데이트 {#app-version-2.1.3.2}
 
 이 버전의 애플리케이션은 버그 수정을 제공합니다.
 
-**앱 v2.1.3.1의 업데이트**
+### 앱 v2.1.3.1의 업데이트 {#app-version-2.1.3.1}
 
 이 버전에서 수정된 버그는 다음과 같습니다.
 
 * 큰 에셋의 경우에도 에셋 업로드 및 다운로드 속도가 개선되었습니다. 이 릴리스에서는 대용량 파일을 업로드할 때 종종 [!DNL desktop app]에 자산을 업로드하지 못하는 문제를 해결했습니다.
 
-**앱 v2.1.2.0에서 업데이트**
+### 앱 v2.1.2.0의 업데이트 {#app-version-2.1.2.0}
 
 * [!UICONTROL Clear Cookies]에 대한 새 옵션이 응용 프로그램의 기본 메뉴에 추가되었습니다. 서버에서 다른 서버로 연결을 변경하는 등의 잠재적 로그온 문제를 해결하는 데 도움이 됩니다. [연결하기 전에 쿠키 지우기](/help/using/troubleshoot.md#cannot-login-cookies-issue)를 참조하십시오.
 
@@ -206,21 +227,21 @@ AEM Desktop App 버전 2.3.1 이상 버전에서는 두 버전의 Windows Instal
 
   이 동작은 데스크탑 앱 버전 1의 기본 동작과 유사합니다. 반면 현재 버전에서는 옵션이 활성화되어 있지 않으면 폴더 이름에서 공백과 `% ; # , + ? ^ { } "` 문자가 폴더 경로의 대시로 바뀝니다. 또한 폴더 경로에서 대문자 문자는 소문자로 변환됩니다. 그러나 파일 이름에서 `# % { } ? &` 문자는 대시로 바뀌지만 공백과 대/소문자는 그대로 유지됩니다. 자세한 내용은 [앱 환경 설정](/help/using/install-upgrade.md#set-preferences) 및 [새 에셋 업로드 및 추가](/help/using/upload-assets.md#upload-and-add-new-assets-to-aem)를 참조하십시오.
 
-**앱 v2.1.1.0에서 업데이트**
+### 앱 v2.1.1.0의 업데이트 {#app-version-2.1.1.0}
 
 * 고급 설정을 사용하면 폴더를 업로드할 때 앱에서 v1.10 앱 동작을 에뮬레이션할 수 있습니다. v1.10에서 저장소에서 생성된 노드 이름은 사용자가 제공한 폴더 이름의 공백 및 대소문자를 따릅니다. 버전 2.1에서는 기본 동작이 변경되지 않습니다. 폴더 이름의 여러 공백은 저장소 노드 이름에서 하이픈으로 대체되고 노드 이름은 소문자로 변환됩니다. [앱 환경 설정](/help/using/install-upgrade.md#set-preferences)을 참조하세요.
 
-**앱 v2.1.0.0에서 업데이트**
+### 앱 v2.1.0.0의 업데이트 {#app-version-2.1.0.0}
 
 * 이제 에셋을 업로드하기 위해 Windows 탐색기 또는 Mac Finder에서 직접 애플리케이션 인터페이스의 파일 또는 폴더를 드래그할 수 있습니다. 이 프로세스는 애플리케이션에서 사용할 수 있는 업로드 옵션과 함께 작동합니다. [자산 업로드](/help/using/upload-assets.md#upload-and-add-new-assets-to-aem) <!-- CQ-4309527 --> 참조
 
-**앱 v2.0.3에서 업데이트**
+### 앱 v2.0.3의 업데이트 {#app-version-2.0.3}
 
 이 버전에서 수정된 버그는 다음과 같습니다.
 
 * [!DNL Adobe Experience Manager] 6.5.5.0의 DAM 저장소에 액세스하려는 Windows의 앱 사용자에 대한 로그인 문제를 해결했습니다.
 
-**앱 v2.0.2의 업데이트**
+### 앱 v2.0.2의 업데이트 {#app-version-2.0.2}
 
 버그 수정 및 업데이트:
 
@@ -234,7 +255,7 @@ AEM Desktop App 버전 2.3.1 이상 버전에서는 두 버전의 Windows Instal
 
 * (Windows) 일부 Windows 컴퓨터에서 앱 인터페이스를 사용할 수 없는 드문 문제를 해결했습니다. 인터페이스 요소가 &#39;이동됨&#39; 옆으로 클릭 영역이 왜곡되어 표시되므로 앱 인터페이스를 클릭할 수 없습니다. <!-- CQ-4280785 -->
 
-**앱 v2.0.1의 업데이트**
+### 앱 v2.0.1의 업데이트 {#app-version-2.0.1}
 
 버그 수정 및 업데이트:
 
