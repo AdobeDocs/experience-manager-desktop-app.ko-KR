@@ -4,7 +4,7 @@ description: ' [!DNL Adobe Experience Manager] 데스크톱 앱에 대한 릴리
 mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-source-git-commit: 64c918a17efd082aee2d63f1379023b1da05a13b
+source-git-commit: ad234d05e7a011b148b74e92adcbf86de476f78d
 workflow-type: tm+mt
 source-wordcount: '2662'
 ht-degree: 8%
@@ -13,7 +13,7 @@ ht-degree: 8%
 
 # [!DNL Adobe Experience Manager] 데스크톱 앱 릴리스 노트 {#release-notes-v2}
 
-데스크탑 앱 버전 3.0.1의 릴리스 날짜는 2025년 12월 18일입니다.  릴리스에는 다음과 같은 개선 사항이 포함됩니다.
+데스크탑 앱 버전 3.0.1의 릴리스 날짜는 2025년 12월 20일입니다.  릴리스에는 다음과 같은 개선 사항이 포함됩니다.
 
 **더 유연하고 안정적인 워크플로**
 
