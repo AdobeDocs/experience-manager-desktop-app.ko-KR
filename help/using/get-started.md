@@ -2,13 +2,13 @@
 title: 시작하기 [!DNL Experience Manager] 데스크톱 앱
 description: ' [!DNL Experience Manager] 데스크탑 앱에서 간소화된 워크플로우와 생산성 기능을 통해 콘텐츠 제작 및 게시를 개선하는 방법을 알아봅니다.'
 feature: Desktop App,Asset Management
-source-git-commit: 2947fbd3bfeb15b37a8f1b0118e969b5d70499d0
+exl-id: 6cf29b6a-74e6-4860-a25b-d3e91abbaa9d
+source-git-commit: a579ab861aa0af8c8415a0f38126de7f33c7a7b3
 workflow-type: tm+mt
 source-wordcount: '1213'
 ht-degree: 0%
 
 ---
-
 
 # [!DNL Adobe Experience Manager] 데스크톱 앱 사용 시작 {#getting-started-desktop-app}
 
@@ -18,9 +18,11 @@ ht-degree: 0%
 
 로그아웃한 후 또는 처음으로 응용 프로그램을 열 때 [!DNL Experience Manager] 서버의 URL을 `https://[aem-server-url]:[port]/` 형식으로 제공하십시오. 그런 다음 [!UICONTROL Connect] 옵션을 선택합니다. 앱을 서버에 연결하기 위한 자격 증명을 제공합니다.
 
+>[!VIDEO](https://video.tv.adobe.com/v/28868?quality=12&learn=on)
+
 [!DNL Adobe Experience Manager] 데스크톱 앱을 사용하여 수행하는 주요 작업은 다음과 같습니다.
 
-![&#x200B; 데스크톱 앱을 사용하여 수행할 수 있는 [!DNL Experience Manager]워크플로 및 작업](assets/aem_desktop_app_usecases_v2.png)
+![ 데스크톱 앱을 사용하여 수행할 수 있는 [!DNL Experience Manager]워크플로 및 작업](assets/aem_desktop_app_usecases_v2.png)
 
 ## 데스크탑 앱 작동 방식 {#how-app-works2}
 
@@ -98,11 +100,11 @@ Assets 웹 인터페이스에서 다음 작업을 시도할 때 데스크탑 앱
 
 ## 다음 단계 {#next-steps}
 
-* [비디오로 Adobe Experience Manager 데스크톱 앱 시작](https://experienceleague.adobe.com/ko/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
+* [비디오로 Adobe Experience Manager 데스크톱 앱 시작](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
 
 * 오른쪽 사이드바에서 사용 가능한 [!UICONTROL Edit this page] ![페이지 편집](assets/do-not-localize/edit-page.png) 또는 [!UICONTROL Log an issue] ![GitHub 문제 만들기](assets/do-not-localize/github-issue.png)를 사용하여 문서 피드백을 제공하십시오
 
-* [고객 지원 센터](https://experienceleague.adobe.com/ko?support-solution=General#support) 문의
+* [고객 지원 센터](https://experienceleague.adobe.com/?support-solution=General#support) 문의
 
 >[!MORELIKETHIS]
 >
