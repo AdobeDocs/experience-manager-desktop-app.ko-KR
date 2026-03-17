@@ -156,7 +156,7 @@ INDD(Adobe InDesign) 파일의 경우 상황에 맞는 메뉴에서 **[!UICONTRO
 
 [!DNL Experience Manager Assets]을(를) 사용하면 편집할 자산을 체크 아웃하고 변경 작업을 완료한 후 다시 체크 인할 수 있습니다. 에셋을 체크 아웃한 후에는 에셋만 편집, 주석 달기, 게시, 이동 또는 삭제할 수 있습니다. 에셋을 체크 아웃하면 에셋이 잠기고 다른 사용자가 이러한 작업을 수행하지 못합니다. 에셋을 체크아웃/체크인하려면 에셋에 대한 쓰기 액세스 권한이 필요합니다.
 
-[!DNL Experience Manager] 웹 인터페이스에서 자산을 체크 아웃하는 방법에는 두 가지가 있습니다. 첫 번째 메서드에 대한 자세한 내용은 [Assets UI에서 체크인 및 체크아웃 파일](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/managing/check-out-and-submit-assets)을 참조하십시오. [!DNL Experience Manager] 데스크톱 앱이 설치되면 자산을 체크아웃하고 열려면 두 번째 방법에 대해 다음 단계를 따르십시오.
+[!DNL Experience Manager] 웹 인터페이스에서 자산을 체크 아웃하는 방법에는 두 가지가 있습니다. 첫 번째 메서드에 대한 자세한 내용은 [Assets UI에서 체크인 및 체크아웃 파일](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/assets/managing/check-out-and-submit-assets)을 참조하십시오. [!DNL Experience Manager] 데스크톱 앱이 설치되면 자산을 체크아웃하고 열려면 두 번째 방법에 대해 다음 단계를 따르십시오.
 
 1. [!DNL Assets] 인터페이스를 열고 폴더 또는 자산 위에 포인터를 가져가면 카드 보기에서 바탕 화면 작업을 빠른 작업으로 표시할 수 있습니다.
 
