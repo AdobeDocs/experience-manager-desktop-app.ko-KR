@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Experience Manager] 데스크톱 앱을 사용하여 
 mini-toc-levels: 1
 feature: Desktop App,Asset Management
 exl-id: fa19d819-231a-4a01-bfd2-6bba6fec2f18
-source-git-commit: f519cb355affea9249d5f5d92c789e993f3ff67d
+source-git-commit: 19e4b92016670de20474b251cda9f2f5274dbc26
 workflow-type: tm+mt
-source-wordcount: '4060'
+source-wordcount: '4093'
 ht-degree: 0%
 
 ---
@@ -119,7 +119,8 @@ ht-degree: 0%
 
 자산 메뉴에서 **[!UICONTROL Open]**&#x200B;을(를) 클릭합니다. 에셋이 로컬로 다운로드되고 기본 애플리케이션에서 열립니다. 상태 표시줄에서 대형 에셋의 다운로드 진행률 및 전송 속도를 확인합니다.
 
-<!-- ![Download progress bar for large-sized assets](assets/download_status_bar_da2.png "Download progress bar for large-sized assets")
+<!-- 
+![Download progress bar for large-sized assets](assets/download_status_bar_da2.png "Download progress bar for large-sized assets")
 -->
 
 >[!NOTE]
@@ -134,7 +135,7 @@ ht-degree: 0%
 
 ![자산에 대한 파일 표시](assets/revealfile_action_da2.png "자산에 대한 파일 표시")
 
-로컬 컴퓨터에서 파일 또는 폴더를 미리 선택한 상태로 Windows 탐색기 또는 Mac Finder를 열려면 **[!UICONTROL Reveal File]** 또는 **[!UICONTROL Reveal Folder]**&#x200B;을(를) 클릭합니다. 예를 들어 이 옵션은 로컬 파일 배치 또는 연결을 지원하는 기본 응용 프로그램에 [!DNL Experience Manager] 파일을 배치하는 데 유용합니다. Adobe InDesign에 파일을 배치하는 방법을 보려면 [그래픽 배치](https://helpx.adobe.com/kr/indesign/using/placing-graphics.html)를 참조하십시오.
+로컬 컴퓨터에서 파일 또는 폴더를 미리 선택한 상태로 Windows 탐색기 또는 Mac Finder를 열려면 **[!UICONTROL Reveal File]** 또는 **[!UICONTROL Reveal Folder]**&#x200B;을(를) 클릭합니다. 예를 들어 이 옵션은 로컬 파일 배치 또는 연결을 지원하는 기본 응용 프로그램에 [!DNL Experience Manager] 파일을 배치하는 데 유용합니다. Adobe InDesign에 파일을 배치하는 방법을 보려면 [그래픽 배치](https://helpx.adobe.com/indesign/using/placing-graphics.html)를 참조하십시오.
 
 **[!UICONTROL Reveal File]** 작업은 로컬 네트워크 공유를 엽니다. 로컬에서 사용할 수 있는 에셋만 표시됩니다. 즉, 앱을 사용하여 공개, 다운로드 또는 열기/편집한 에셋을 표시합니다. 로컬 네트워크 공유가 [!DNL Experience Manager]에 변경 내용을 업로드하지 않습니다. 변경 내용을 업로드하려면 앱에서 **[!UICONTROL Upload Changes]** 또는 **[!UICONTROL Upload]** 작업을 명시적으로 사용하십시오.
 
@@ -157,7 +158,7 @@ ht-degree: 0%
 * 자산을 먼저 체크아웃하지 않고 편집을 시작했습니다(자산을 열기만 하면 됨).
 * 에셋 편집을 곧 시작하고 다른 사용자가 편집하지 않도록 하려는 경우
 
-편집을 완료하면 변경된 에셋에 대한 **[!UICONTROL Edited Locally]** 상태가 앱에 표시됩니다. 변경 내용을 [!DNL Experience Manager]에 업로드할 때까지 자산에 저장된 모든 변경 내용이 로컬 전용입니다. 개별 또는 몇 개의 에셋을 하나씩 업로드하려면 에셋 옵션에서 **[!UICONTROL Upload Changes]**&#x200B;을(를) 클릭합니다. [!DNL Experience Manager]에 자산의 버전을 만듭니다. [!DNL Assets]의 웹 인터페이스를 사용하면 [타임라인 보기](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/assets/using/activity-stream)에서 자산 내역을 볼 수 있습니다.
+편집을 완료하면 변경된 에셋에 대한 **[!UICONTROL Edited Locally]** 상태가 앱에 표시됩니다. 변경 내용을 [!DNL Experience Manager]에 업로드할 때까지 자산에 저장된 모든 변경 내용이 로컬 전용입니다. 개별 또는 몇 개의 에셋을 하나씩 업로드하려면 에셋 옵션에서 **[!UICONTROL Upload Changes]**&#x200B;을(를) 클릭합니다. [!DNL Experience Manager]에 자산의 버전을 만듭니다. [!DNL Assets]의 웹 인터페이스를 사용하면 [타임라인 보기](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/using/activity-stream)에서 자산 내역을 볼 수 있습니다.
 
 ![앱의 변경 내용 업로드 옵션](assets/upload_changes_single1_da2.png "앱의 변경 내용 업로드 옵션")
 
@@ -177,7 +178,8 @@ ht-degree: 0%
 
 사용자는 DAM 저장소에 새 에셋을 추가할 수 있습니다. 예를 들어 사진 촬영에서 [!DNL Experience Manager] 리포지토리에 많은 사진을 추가하려는 에이전시 사진작가 또는 계약자일 수 있습니다. [!DNL Experience Manager]에 새 콘텐츠를 추가하려면 앱의 상단 표시줄에서 ![클라우드에 업로드 옵션](assets/do-not-localize/upload_to_cloud_da2.png)을 선택합니다. 로컬 파일 시스템에서 자산 파일을 찾은 다음 **[!UICONTROL Select]**&#x200B;을(를) 클릭합니다. 또는 에셋을 업로드하려면 애플리케이션 인터페이스에서 파일이나 폴더를 드래그합니다. Windows에서 앱 내의 폴더에 자산을 드래그하면 자산이 폴더에 업로드됩니다. 업로드하는 데 시간이 오래 걸리는 경우 앱에 진행률 표시줄이 표시됩니다.
 
-<!-- ![Download progress bar for large-sized assets](assets/upload_status_da2.png "Download progress bar for large-sized assets")
+<!-- 
+![Download progress bar for large-sized assets](assets/upload_status_da2.png "Download progress bar for large-sized assets")
 -->
 
 로컬 파일 시스템에서 폴더 또는 개별 파일을 업로드할 수 있습니다. 업로드 시 폴더의 계층 구조가 유지됩니다. 자산을 일괄적으로 업로드하기 전에 [일괄 업로드](#bulk-upload-assets)를 참조하십시오.
@@ -194,13 +196,14 @@ ht-degree: 0%
 
 ### 자산 이름의 특수 문자 관리 {#special-characters-in-filename}
 
-레거시 앱에서 리포지토리에서 만든 노드 이름은 사용자가 제공한 폴더 이름의 공백과 대/소문자를 유지합니다. 현재 응용 프로그램에서 v1.10 앱의 노드 이름 지정 규칙을 에뮬레이션하려면 [!UICONTROL Use legacy conventions when creating nodes for assets and folders]에서 [!UICONTROL Preferences]을(를) 사용하도록 설정하십시오. [앱 환경 설정](/help/using/install-upgrade.md#set-preferences)을 참조하세요. 이 레거시 환경 설정은 기본적으로 비활성화되어 있습니다.
+레거시 앱에서 리포지토리에서 만든 노드 이름은 사용자가 제공한 폴더 이름의 공백과 대/소문자를 유지합니다. 현재 응용 프로그램에서 v1.10 앱의 노드 이름 지정 규칙을 에뮬레이션하려면 [!UICONTROL Preferences]에서 [!UICONTROL Use legacy conventions when creating nodes for assets and folders]을(를) 사용하도록 설정하십시오. [앱 환경 설정](/help/using/install-upgrade.md#set-preferences)을 참조하세요. 이 레거시 환경 설정은 기본적으로 비활성화되어 있습니다.
 
 >[!NOTE]
 >
 >이 앱은 다음 이름 지정 규칙을 사용하여 저장소의 노드 이름만 변경합니다. 앱에서 자산의 `Title`을(를) 그대로 유지합니다.
 
-<!-- TBD: Do NOT use this table.
+<!-- 
+TBD: Do NOT use this table.
 
 | Where do characters occur | Characters | Legacy preference | Renaming convention | Example |
 |---|---|---|---|---|
@@ -224,13 +227,15 @@ ht-degree: 0%
 
 ‡ 문자 목록은 공백으로 구분된 목록입니다.
 
-<!-- TBD: Check if the following is to be included in the footnote.
+<!-- 
+TBD: Check if the following is to be included in the footnote.
 
 Do not use &#92;&#92; in the names of files and &#92;&#116; &#38; in the names of folders. 
 -->
 
 
-<!-- TBD: Securing the below presentation of the same content in a comment.
+<!-- 
+TBD: Securing the below presentation of the same content in a comment.
 
 **File names**
 
@@ -297,7 +302,7 @@ Do not use &#92;&#92; in the names of files and &#92;&#116; &#38; in the names o
 
 >[!NOTE]
 >
->업로드 기능을 사용하여 두 개의 [!DNL Experience Manager] 배포 간에 자산을 마이그레이션하지 마십시오. 대신 [마이그레이션 안내서](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/assets/administer/assets-migration-guide)를 참조하세요.
+>업로드 기능을 사용하여 두 개의 [!DNL Experience Manager] 배포 간에 자산을 마이그레이션하지 마십시오. 대신 [마이그레이션 안내서](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/assets-migration-guide)를 참조하세요.
 
 ### 양도된 자산 목록 {#list-of-transferred-assets}
 
@@ -311,7 +316,7 @@ Do not use &#92;&#92; in the names of files and &#92;&#116; &#38; in the names o
 
 Assets 웹 인터페이스에서 다음 작업을 시도할 때 데스크탑 앱 기능이 사용됩니다.
 
-* [!UICONTROL Desktop Actions], [!UICONTROL Open] 및 [!UICONTROL Edit]을(를) 허용하는 [!UICONTROL Reveal]
+* [!UICONTROL Open], [!UICONTROL Edit] 및 [!UICONTROL Reveal]을(를) 허용하는 [!UICONTROL Desktop Actions]
 * [!UICONTROL Upload folder]
 * [!UICONTROL Check-out] 또는 [!UICONTROL check-in]
 
@@ -338,7 +343,7 @@ Assets 웹 인터페이스에서 다음 작업을 시도할 때 데스크탑 앱
 
 * [!UICONTROL Open]을(를) 클릭하여 자산을 편집하지 마십시오. 파일 시스템 폴더에서 을 열어 로컬로 다운로드한 에셋을 편집하지 마십시오. 다른 사용자는 자산이 편집되고 있다는 것을 알지 못합니다.
 * 자산을 편집하려면 항상 [!UICONTROL Edit]을(를) 클릭하십시오. 기본 애플리케이션에서 에셋을 열고 에셋에 잠금 아이콘을 추가하여 다른 사용자가 에셋이 편집 중임을 알 수 있도록 합니다.
-* [!UICONTROL Toggle Check-in]을(를) 클릭하지 않고 실수로 편집을 시작하는 경우 [!UICONTROL Edit]을(를) 클릭합니다. 이 기능은 에셋에 잠금 아이콘을 추가합니다. 나중에 자산을 편집할 계획이지만 다른 사용자가 자산을 편집하지 않도록 하려면 [!UICONTROL Toggle Check-in]을(를) 클릭하여 자산을 잠급니다.
+* [!UICONTROL Edit]을(를) 클릭하지 않고 실수로 편집을 시작하는 경우 [!UICONTROL Toggle Check-in]을(를) 클릭합니다. 이 기능은 에셋에 잠금 아이콘을 추가합니다. 나중에 자산을 편집할 계획이지만 다른 사용자가 자산을 편집하지 않도록 하려면 [!UICONTROL Toggle Check-in]을(를) 클릭하여 자산을 잠급니다.
 * 에셋을 편집하기 전에 다른 사용자가 에셋을 편집하고 있지 않은지 확인하십시오. 에셋에서 잠금 아이콘을 찾습니다.
 * 편집을 완료한 후 모든 변경 사항을 업로드한 다음 에셋을 체크 인합니다.
 
@@ -366,8 +371,8 @@ Assets 웹 인터페이스에서 다음 작업을 시도할 때 데스크탑 앱
 
 이미지 에셋 및 InDesign으로 이 워크플로우를 시도하려면 다음 단계를 수행합니다.
 
-1. [!DNL Experience Manager]에 배치된 자산이 있는 INDD 파일을 가까이 두십시오. 이러한 INDD 파일을 만드는 방법은 [그래픽 넣기](https://helpx.adobe.com/kr/indesign/using/placing-graphics.html)를 참조하십시오.
-1. 데스크톱 앱 내에서 **[!UICONTROL Edit]**&#x200B;에 배치된 자산이 있는 INDD 파일을 [!DNL Experience Manager]합니다.
+1. [!DNL Experience Manager]에 배치된 자산이 있는 INDD 파일을 가까이 두십시오. 이러한 INDD 파일을 만드는 방법은 [그래픽 넣기](https://helpx.adobe.com/indesign/using/placing-graphics.html)를 참조하십시오.
+1. 데스크톱 앱 내에서 [!DNL Experience Manager]에 배치된 자산이 있는 INDD 파일을 **[!UICONTROL Edit]**&#x200B;합니다.
 1. 이 앱은 InDesign 파일과 연결된 자산을 다운로드합니다. InDesign이 문서를 열면 링크가 해석되고 에셋이 다운로드되고 에셋이 InDesign 문서에 표시됩니다.
 1. InDesign 파일에 새 그래픽을 넣으려면 자산에 대해 **[!UICONTROL Reveal File]** 작업을 사용하십시오. 이 작업은 자산을 로컬로 다운로드하고 Windows 탐색기 또는 Mac Finder에서 로컬 네트워크 공유 위치를 엽니다.
 1. 드러난 에셋을 InDesign 문서에 배치합니다. 이렇게 하면 문서에 링크가 만들어집니다.
@@ -385,4 +390,4 @@ Assets 웹 인터페이스에서 다음 작업을 시도할 때 데스크탑 앱
 
 [!UICONTROL Edit] 작업을 사용하여 기본 데스크톱 응용 프로그램에서 자산을 편집할 때 해당 자산은 로컬에서 아직 사용할 수 없는 경우 로컬로 다운로드됩니다. [에셋 편집 및 업데이트된 에셋 업로드 [!DNL Experience Manager]](#edit-assets-upload-updated-assets)를 참조하십시오.
 
-앱이 설치되고 허용되는 경우 [!UICONTROL Desktop Actions] 웹 인터페이스에서 [!DNL Experience Manager]을(를) 사용할 때 작업이 완료됩니다. 앱이 먼저 에셋을 다운로드한 다음 작업을 완료합니다.
+앱이 설치되고 허용되는 경우 [!DNL Experience Manager] 웹 인터페이스에서 [!UICONTROL Desktop Actions]을(를) 사용할 때 작업이 완료됩니다. 앱이 먼저 에셋을 다운로드한 다음 작업을 완료합니다.

@@ -2,13 +2,13 @@
 title: '[!DNL Experience Manager] 데스크톱 앱에서 자산 검색, 검색 및 미리 보기'
 description: ' [!DNL Adobe Experience Manager] 데스크톱 앱에서 자산을 검색 및 미리 봅니다.'
 feature: Desktop App
-source-git-commit: 2947fbd3bfeb15b37a8f1b0118e969b5d70499d0
+exl-id: 03d20735-0808-4b52-bd9e-8284fcf506ed
+source-git-commit: 19e4b92016670de20474b251cda9f2f5274dbc26
 workflow-type: tm+mt
-source-wordcount: '910'
-ht-degree: 0%
+source-wordcount: '928'
+ht-degree: 1%
 
 ---
-
 
 # 에셋 검색 및 미리 보기 {#browse-search-preview-assets}
 
@@ -39,7 +39,8 @@ ht-degree: 0%
 
 자산 메뉴에서 **[!UICONTROL Open]**&#x200B;을(를) 클릭합니다. 에셋이 로컬로 다운로드되고 기본 애플리케이션에서 열립니다. 상태 표시줄에서 대형 에셋의 다운로드 진행률 및 전송 속도를 확인합니다.
 
-<!-- ![Download progress bar for large-sized assets](assets/download_status_bar_da2.png "Download progress bar for large-sized assets")
+<!-- 
+![Download progress bar for large-sized assets](assets/download_status_bar_da2.png "Download progress bar for large-sized assets")
 -->
 
 >[!NOTE]
@@ -54,7 +55,7 @@ ht-degree: 0%
 
 ![자산에 대한 파일 표시](assets/revealfile_action_da2.png "자산에 대한 파일 표시")
 
-로컬 컴퓨터에서 파일 또는 폴더를 미리 선택한 상태로 Windows 탐색기 또는 Mac Finder를 열려면 **[!UICONTROL Reveal File]** 또는 **[!UICONTROL Reveal Folder]**&#x200B;을(를) 클릭합니다. 예를 들어 이 옵션은 로컬 파일 배치 또는 연결을 지원하는 기본 응용 프로그램에 [!DNL Experience Manager] 파일을 배치하는 데 유용합니다. Adobe InDesign에 파일을 배치하는 방법을 보려면 [그래픽 배치](https://helpx.adobe.com/kr/indesign/using/placing-graphics.html)를 참조하십시오.
+로컬 컴퓨터에서 파일 또는 폴더를 미리 선택한 상태로 Windows 탐색기 또는 Mac Finder를 열려면 **[!UICONTROL Reveal File]** 또는 **[!UICONTROL Reveal Folder]**&#x200B;을(를) 클릭합니다. 예를 들어 이 옵션은 로컬 파일 배치 또는 연결을 지원하는 기본 응용 프로그램에 [!DNL Experience Manager] 파일을 배치하는 데 유용합니다. Adobe InDesign에 파일을 배치하는 방법을 보려면 [그래픽 배치](https://helpx.adobe.com/indesign/using/placing-graphics.html)를 참조하십시오.
 
 **[!UICONTROL Reveal File]** 작업은 로컬 네트워크 공유를 엽니다. 로컬에서 사용할 수 있는 에셋만 표시됩니다. 즉, 앱을 사용하여 공개, 다운로드 또는 열기/편집한 에셋을 표시합니다. 로컬 네트워크 공유가 [!DNL Experience Manager]에 변경 내용을 업로드하지 않습니다. 변경 내용을 업로드하려면 앱에서 **[!UICONTROL Upload Changes]** 또는 **[!UICONTROL Upload]** 작업을 명시적으로 사용하십시오.
 
@@ -68,7 +69,7 @@ ht-degree: 0%
 
 ### 자산 이름의 특수 문자 관리 {#special-characters-in-filename}
 
-레거시 앱에서 리포지토리에서 만든 노드 이름은 사용자가 제공한 폴더 이름의 공백과 대/소문자를 유지합니다. 현재 응용 프로그램에서 v1.10 앱의 노드 이름 지정 규칙을 에뮬레이션하려면 [!UICONTROL Use legacy conventions when creating nodes for assets and folders]에서 [!UICONTROL Preferences]을(를) 사용하도록 설정하십시오. [앱 환경 설정](/help/using/install-upgrade.md#set-preferences)을 참조하세요. 이 레거시 환경 설정은 기본적으로 비활성화되어 있습니다.
+레거시 앱에서 리포지토리에서 만든 노드 이름은 사용자가 제공한 폴더 이름의 공백과 대/소문자를 유지합니다. 현재 응용 프로그램에서 v1.10 앱의 노드 이름 지정 규칙을 에뮬레이션하려면 [!UICONTROL Preferences]에서 [!UICONTROL Use legacy conventions when creating nodes for assets and folders]을(를) 사용하도록 설정하십시오. [앱 환경 설정](/help/using/install-upgrade.md#set-preferences)을 참조하세요. 이 레거시 환경 설정은 기본적으로 비활성화되어 있습니다.
 
 >[!NOTE]
 >
@@ -92,11 +93,11 @@ ht-degree: 0%
 
 ## 다음 단계 {#next-steps}
 
-* [비디오로 Adobe Experience Manager 데스크톱 앱 시작](https://experienceleague.adobe.com/ko/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
+* [Adobe Experience Manager 데스크탑 앱을 시작하려면 비디오 보기](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
 
 * 오른쪽 사이드바에서 사용 가능한 [!UICONTROL Edit this page] ![페이지 편집](assets/do-not-localize/edit-page.png) 또는 [!UICONTROL Log an issue] ![GitHub 문제 만들기](assets/do-not-localize/github-issue.png)를 사용하여 문서 피드백을 제공하십시오
 
-* [고객 지원 센터](https://experienceleague.adobe.com/ko?support-solution=General#support) 문의
+* [고객 지원 센터](https://experienceleague.adobe.com/?support-solution=General#support) 문의
 
 >[!MORELIKETHIS]
 >
