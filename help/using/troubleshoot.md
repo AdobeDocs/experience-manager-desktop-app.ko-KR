@@ -2,9 +2,25 @@
 title: ' [!DNL Adobe Experience Manager] 데스크톱 앱에 대한 우수 사례 및 문제 해결'
 description: 모범 사례 및 문제 해결 을 따라 설치, 업그레이드, 구성 등과 관련하여 가끔 발생하는 문제를 해결하십시오.
 exl-id: f388e4ac-907d-4093-ba6f-86ecdafeb015
-source-git-commit: a8cb0aaab08f24c83a9b5640a96a5ae8895685d2
+TQID: https://experienceleague.adobe.com/-dzlMXZ6SeCoc-QvFbEbWr1YNbK3A4nNIYI6xBudotI
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2:
+  - id: d18d21f5-ea10-400d-a1f0-a2071ad38419
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: da3860b0-d637-47df-bef0-273751180266
+source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
 workflow-type: tm+mt
-source-wordcount: '2275'
+source-wordcount: 2338
 ht-degree: 0%
 
 ---
@@ -180,7 +196,7 @@ sudo find /var/folders -type d -name "com.adobe.aem.desktop.finderintegration-pl
 
 ## 파일을 업로드할 수 없음 {#upload-fails}
 
-데스크탑 앱을 [!DNL Experience Manager] 6.5.1 이상에서 사용하는 경우 S3 또는 Azure 커넥터를 버전 1.10.4 이상으로 업그레이드하십시오. [OAK-8599](https://issues.apache.org/jira/browse/OAK-8599)과(와) 관련된 파일 업로드 실패 문제를 해결합니다. [설치 지침](install-upgrade.md#install-v2)을 참조하세요.
+[!DNL Experience Manager] 6.5.1 이상에서 데스크톱 앱을 사용하는 경우 S3 또는 Azure 커넥터를 버전 1.10.4 이상으로 업그레이드하십시오. [OAK-8599](https://issues.apache.org/jira/browse/OAK-8599)과(와) 관련된 파일 업로드 실패 문제를 해결합니다. [설치 지침](install-upgrade.md#install-v2)을 참조하세요.
 
 ## [!DNL Experience Manager] 데스크톱 앱 연결 문제 {#connection-issues}
 

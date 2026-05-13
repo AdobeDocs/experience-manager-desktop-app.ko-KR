@@ -4,10 +4,22 @@ description: ' [!DNL Adobe Experience Manager] 데스크톱 앱에 대한 릴리
 mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-source-git-commit: 826e667f11792797629e0edad5db62aea6f61774
+TQID: https://experienceleague.adobe.com/hS1Q5NPU2YnyxJQbp3vapxB3-CLqbBck58NEYv3JMnI
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
 workflow-type: tm+mt
-source-wordcount: '5259'
-ht-degree: 4%
+source-wordcount: 5259
+ht-degree: 5%
 
 ---
 
@@ -295,7 +307,7 @@ AEM Desktop App 버전 2.3.1 이상 버전에서는 두 버전의 Windows Instal
 
 * 예상한 결과가 앱에 표시되지 않으면 상단 표시줄의 새로 고침 아이콘을 클릭합니다.
 
-* [!UICONTROL Reveal File] 작업을 사용할 때 표시되는 로컬 네트워크 공유에는 로컬에서 사용할 수 있는 파일(및 폴더)만 표시됩니다. [!UICONTROL Reveal File] 로컬 네트워크 공유에 표시되는 올바른 자산을 가져올 수 있도록 [!UICONTROL Reveal Folder]에서 자산을 미리 다운로드합니다.
+* [!UICONTROL Reveal File] 작업을 사용할 때 표시되는 로컬 네트워크 공유에는 로컬에서 사용할 수 있는 파일(및 폴더)만 표시됩니다. 로컬 네트워크 공유에 표시되는 적합한 자산을 가져올 수 있도록 [!UICONTROL Reveal File] 및 [!UICONTROL Reveal Folder]에서 자산을 미리 다운로드합니다.
 
 * SMB(Mac)/WebDAV(Win) 로컬 네트워크 공유는 Adobe Creative Cloud 앱이 Creative Cloud 앱의 기본 파일에 연결/배치된 자산 파일을 읽을 때 사용됩니다.
 

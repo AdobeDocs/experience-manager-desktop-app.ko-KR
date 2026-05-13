@@ -2,13 +2,22 @@
 title: ' [!DNL Experience Manager] 데스크톱 앱 사용'
 description: ' [!DNL Adobe Experience Manager] 데스크톱 앱을 사용하여 Win 또는 Mac 데스크톱에서  [!DNL Adobe Experience Manager] DAM 자산을 사용하여 작업하고 다른 응용 프로그램에서 사용합니다.'
 feature: Desktop App,Asset Management
-source-git-commit: c5aeee9ab636ba7bedff4225172140d59cfe627d
+exl-id: c8f57bdc-1465-401f-88b1-9107fcacceb5
+TQID: https://experienceleague.adobe.com/EDU6FDXK0AFeJECzOhmYJckrQDsbSNRxY02Rgg-ScrE
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
 workflow-type: tm+mt
-source-wordcount: '1416'
-ht-degree: 0%
+source-wordcount: 1438
+ht-degree: 1%
 
 ---
-
 
 # [!DNL AEM Desktop App]의 Assets 관리 작업 {#assets-management-tasks}
 
@@ -123,7 +132,7 @@ AEM 데스크탑 앱을 사용하면 새 폴더를 만드는 동안 메타데이
 
 * [!UICONTROL Open]을(를) 클릭하여 자산을 편집하지 마십시오. 파일 시스템 폴더에서 을 열어 로컬로 다운로드한 에셋을 편집하지 마십시오. 다른 사용자는 자산이 편집되고 있다는 것을 알지 못합니다.
 * 자산을 편집하려면 항상 [!UICONTROL Edit]을(를) 클릭하십시오. 기본 애플리케이션에서 에셋을 열고 에셋에 잠금 아이콘을 추가하여 다른 사용자가 에셋이 편집 중임을 알 수 있도록 합니다.
-* [!UICONTROL Toggle Check-in]을(를) 클릭하지 않고 실수로 편집을 시작하는 경우 [!UICONTROL Edit]을(를) 클릭합니다. 이 기능은 에셋에 잠금 아이콘을 추가합니다. 나중에 자산을 편집할 계획이지만 다른 사용자가 자산을 편집하지 않도록 하려면 [!UICONTROL Toggle Check-in]을(를) 클릭하여 자산을 잠급니다.
+* [!UICONTROL Edit]을(를) 클릭하지 않고 실수로 편집을 시작하는 경우 [!UICONTROL Toggle Check-in]을(를) 클릭합니다. 이 기능은 에셋에 잠금 아이콘을 추가합니다. 나중에 자산을 편집할 계획이지만 다른 사용자가 자산을 편집하지 않도록 하려면 [!UICONTROL Toggle Check-in]을(를) 클릭하여 자산을 잠급니다.
 * 에셋을 편집하기 전에 다른 사용자가 에셋을 편집하고 있지 않은지 확인하십시오. 에셋에서 잠금 아이콘을 찾습니다.
 * 편집을 완료한 후 모든 변경 사항을 업로드한 다음 에셋을 체크 인합니다.
 
@@ -152,7 +161,7 @@ AEM 데스크탑 앱을 사용하면 새 폴더를 만드는 동안 메타데이
 이미지 에셋 및 InDesign으로 이 워크플로우를 시도하려면 다음 단계를 수행합니다.
 
 1. [!DNL Experience Manager]에 배치된 자산이 있는 INDD 파일을 가까이 두십시오. 이러한 INDD 파일을 만드는 방법은 [그래픽 넣기](https://helpx.adobe.com/kr/indesign/using/placing-graphics.html)를 참조하십시오.
-1. 데스크톱 앱 내에서 **[!UICONTROL Edit]**&#x200B;에 배치된 자산이 있는 INDD 파일을 [!DNL Experience Manager]합니다.
+1. 데스크톱 앱 내에서 [!DNL Experience Manager]에 배치된 자산이 있는 INDD 파일을 **[!UICONTROL Edit]**&#x200B;합니다.
 1. 이 앱은 InDesign 파일과 연결된 자산을 다운로드합니다. InDesign이 문서를 열면 링크가 해석되고 에셋이 다운로드되고 에셋이 InDesign 문서에 표시됩니다.
 1. InDesign 파일에 새 그래픽을 넣으려면 자산에 대해 **[!UICONTROL Reveal File]** 작업을 사용하십시오. 이 작업은 자산을 로컬로 다운로드하고 Windows 탐색기 또는 Mac Finder에서 로컬 네트워크 공유 위치를 엽니다.
 1. 드러난 에셋을 InDesign 문서에 배치합니다. 이렇게 하면 문서에 링크가 만들어집니다.
@@ -160,7 +169,7 @@ AEM 데스크탑 앱을 사용하면 새 폴더를 만드는 동안 메타데이
 
 ## 다음 단계 {#next-steps}
 
-* [비디오로 Adobe Experience Manager 데스크톱 앱 시작](https://experienceleague.adobe.com/ko/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
+* [Adobe Experience Manager 데스크탑 앱을 시작하려면 비디오 보기](https://experienceleague.adobe.com/ko/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
 
 * 오른쪽 사이드바에서 사용 가능한 [!UICONTROL Edit this page] ![페이지 편집](assets/do-not-localize/edit-page.png) 또는 [!UICONTROL Log an issue] ![GitHub 문제 만들기](assets/do-not-localize/github-issue.png)를 사용하여 문서 피드백을 제공하십시오
 

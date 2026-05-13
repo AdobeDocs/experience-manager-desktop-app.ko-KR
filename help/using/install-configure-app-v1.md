@@ -2,9 +2,23 @@
 title: 데스크탑 앱 v1.10 설치 및 구성
 description: ' [!DNL Assets] 서버에서 작동하도록  [!DNL Experience Manager] 데스크톱 앱 버전 1.10을 설치 및 구성하고 자산을 데스크톱에 드라이브로 탑재하도록 매핑합니다.'
 exl-id: 7f3bdfb1-d345-4e48-b020-6e06531f46f2
-source-git-commit: 1c7437786a50eeafa884ce92b745f3438b2d2b88
+TQID: https://experienceleague.adobe.com/q8HwCAJiC2BlVsKHHC-Pg6NrvQEuI4bfhPV6q4s9xBE
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2:
+  - id: a9d2a4a6-0a32-4f6e-8eb1-128ec2b18a80
+  - id: d18d21f5-ea10-400d-a1f0-a2071ad38419
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: 928
 ht-degree: 0%
 
 ---
@@ -13,7 +27,7 @@ ht-degree: 0%
 
 [!DNL Experience Manager] 데스크톱 앱을 사용하면 로컬 데스크톱에서 [!DNL Experience Manager] 내의 자산에 쉽게 액세스할 수 있으며 모든 데스크톱 응용 프로그램에서 사용할 수 있습니다. Assets은 Mac Finder 또는 Windows 탐색기에서 볼 수 있으며 데스크톱 앱에서 편집되고 변경 사항이 [!DNL Experience Manager]에 다시 저장되며 업로드 시 새 버전이 만들어집니다.
 
-이 통합을 통해 다양한 역할이 Assets의 조직 내에서 자산을 중앙에서 관리하고 Creative Cloud 및 기타 애플리케이션에서 액세스하며 브랜딩을 비롯한 다양한 표준을 쉽게 준수할 수 있습니다.
+이 통합을 통해 다양한 역할이 Assets의 조직 내에서 중앙에서 자산을 관리하고 Creative Cloud 및 기타 애플리케이션에서 액세스할 수 있으며 브랜딩을 비롯한 다양한 표준을 쉽게 준수할 수 있습니다.
 
 [!DNL Experience Manager] 데스크톱 앱을 사용하려면,
 
