@@ -2,9 +2,15 @@
 title: ' [!DNL Adobe Experience Manager] 데스크톱 앱에 대한 우수 사례 및 문제 해결'
 description: 모범 사례 및 문제 해결 을 따라 설치, 업그레이드, 구성 등과 관련하여 가끔 발생하는 문제를 해결하십시오.
 exl-id: f388e4ac-907d-4093-ba6f-86ecdafeb015
-source-git-commit: a8cb0aaab08f24c83a9b5640a96a5ae8895685d2
+TQID: https://experienceleague.adobe.com/-dzlMXZ6SeCoc-QvFbEbWr1YNbK3A4nNIYI6xBudotI
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2: id: d18d21f5-ea10-400d-a1f0-a2071ad38419
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: da3860b0-d637-47df-bef0-273751180266
+source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
 workflow-type: tm+mt
-source-wordcount: '2275'
+source-wordcount: 2338
 ht-degree: 0%
 
 ---
@@ -21,7 +27,7 @@ ht-degree: 0%
 
 * **데스크톱 앱의 작동 방식을 이해합니다**: 응용 프로그램 사용을 시작하기 전에 앱이 어떻게 작동하는지 알고 잠시 시간을 보내십시오. [!DNL Experience Manager] 웹 인터페이스와 데스크톱 간의 연결, 저장소 매핑, 에셋 캐싱, 로컬로 저장 및 백그라운드에서 업로드에 대해 알아봅니다. [작동 방법](release-notes.md#how-app-works)을 참조하세요.
 
-* **폴더 이름에 지원되지 않는 문자를 사용하지 마십시오**: 폴더를 만들거나 업로드할 때 공백과 잘못된 문자를 사용하지 마십시오. [폴더 만들기 [!DNL Adobe Experience Manager Assets]](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/assets/managing/manage-assets#creating-folders)에서 문자 목록을 확인하세요. 폴더 이름에 지원되지 않는 문자가 일부 [!DNL Experience Manager]개의 사용 사례에 영향을 줄 수 있습니다.
+* **폴더 이름에 지원되지 않는 문자를 사용하지 마십시오**: 폴더를 만들거나 업로드할 때 공백과 잘못된 문자를 사용하지 마십시오. [폴더 만들기 [!DNL Adobe Experience Manager Assets]](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/managing/manage-assets#creating-folders)에서 문자 목록을 확인하세요. 폴더 이름에 지원되지 않는 문자가 일부 [!DNL Experience Manager]개의 사용 사례에 영향을 줄 수 있습니다.
 
 * **충돌을 방지하는 모범 사례**: 여러 에셋에 대해 공동 작업을 수행할 때 발생할 수 있는 충돌을 방지하려면 [충돌을 피하려면](assets-management-tasks.md#adv-workflow-collaborate-avoid-conflicts)(으)로 이동하십시오.
 
@@ -180,7 +186,7 @@ sudo find /var/folders -type d -name "com.adobe.aem.desktop.finderintegration-pl
 
 ## 파일을 업로드할 수 없음 {#upload-fails}
 
-데스크탑 앱을 [!DNL Experience Manager] 6.5.1 이상에서 사용하는 경우 S3 또는 Azure 커넥터를 버전 1.10.4 이상으로 업그레이드하십시오. [OAK-8599](https://issues.apache.org/jira/browse/OAK-8599)과(와) 관련된 파일 업로드 실패 문제를 해결합니다. [설치 지침](install-upgrade.md#install-v2)을 참조하세요.
+[!DNL Experience Manager] 6.5.1 이상에서 데스크톱 앱을 사용하는 경우 S3 또는 Azure 커넥터를 버전 1.10.4 이상으로 업그레이드하십시오. [OAK-8599](https://issues.apache.org/jira/browse/OAK-8599)과(와) 관련된 파일 업로드 실패 문제를 해결합니다. [설치 지침](install-upgrade.md#install-v2)을 참조하세요.
 
 ## [!DNL Experience Manager] 데스크톱 앱 연결 문제 {#connection-issues}
 
@@ -301,8 +307,8 @@ SAML 프로세스가 이러한 브라우저를 지원하는지 확인합니다.
 
 [!DNL Experience Manager] 사용자 인터페이스 내에서 자산을 검색할 때 만료된 자산이 표시되지 않습니다. 관리자는 데스크탑 앱과 자산 링크에서 검색할 때 만료된 자산을 보고 검색하고 가져오지 않도록 설정을 구성할 수 있습니다. 이렇게 하면 이러한 작업 중에 만료된 에셋에 액세스할 수 없게 됩니다. 이 구성은 관리자 권한과 관계없이 모든 사용자에 대해 작동합니다.
 
-* [만료된 자산을 숨기는 Experience Manager 6.5의 구성](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/assets/managing/manage-assets#hide-expired-assets-via-acp-api).
-* [만료된 자산을 숨기기 위한 Experience Manager as a Cloud Service의 구성](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets#hide-expired-assets-via-acp-api).
+* [만료된 자산을 숨기는 Experience Manager 6.5의 구성](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/managing/manage-assets#hide-expired-assets-via-acp-api).
+* [만료된 자산을 숨기기 위한 Experience Manager as a Cloud Service의 구성](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets#hide-expired-assets-via-acp-api).
 
 <!--
 ### Need additional help with [!DNL Experience Manager] desktop app {#additional-help}

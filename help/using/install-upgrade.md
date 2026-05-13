@@ -1,11 +1,16 @@
 ---
 title: 데스크탑 앱 설치 및 구성
-description: ' [!DNL Adobe Experience Manager] 서버에서 작동하도록  [!DNL Adobe Experience Manager Assets] 데스크톱 앱을 설치 및 구성하고 로컬 파일 시스템의 자산을 다운로드합니다.'
+description: ' [!DNL Adobe Experience Manager Assets] 서버에서 작동하도록  [!DNL Adobe Experience Manager] 데스크톱 앱을 설치 및 구성하고 로컬 파일 시스템의 자산을 다운로드합니다.'
 feature: Desktop App,Release Information
 exl-id: 422e51c1-c456-4151-bb43-4b3d29a58187
-source-git-commit: b1fad118e1ffbd0809afe9a33bcb848648cd8bdd
+TQID: https://experienceleague.adobe.com/drhaNIzGSMDl80NaIvK6T39Bnd8Pp47FlBNyRBmPprQ
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2: id: d18d21f5-ea10-400d-a1f0-a2071ad38419
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
 workflow-type: tm+mt
-source-wordcount: '1447'
+source-wordcount: 1530
 ht-degree: 0%
 
 ---
@@ -60,7 +65,7 @@ ht-degree: 0%
 
 1. 다른 버전의 앱에서 업그레이드하는 경우 [데스크톱 앱 업그레이드](#upgrade-from-previous-version)를 참조하십시오.
 
-1. [!DNL Experience Manager]을(를) [!DNL Cloud Service], [!DNL Experience Manager] 6.4.4 이상 또는 [!DNL Experience Manager] 6.5.0 이상으로 사용하는 경우 이 단계를 건너뜁니다. [!DNL Experience Manager] 설정이 [릴리스 정보](release-notes.md)에 언급된 호환성 요구 사항을 충족하는지 확인하십시오. 필요한 경우 해당 [호환성 패키지](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)를 다운로드하고 [!DNL Experience Manager] 패키지 관리자를 사용하여 [!DNL Experience Manager] 관리자로 설치하십시오. 패키지를 설치하려면 [패키지를 사용하여 작업하는 방법](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/sites/administering/contentmanagement/package-manager)을 참조하세요.
+1. [!DNL Experience Manager]을(를) [!DNL Cloud Service], [!DNL Experience Manager] 6.4.4 이상 또는 [!DNL Experience Manager] 6.5.0 이상으로 사용하는 경우 이 단계를 건너뜁니다. [!DNL Experience Manager] 설정이 [릴리스 정보](release-notes.md)에 언급된 호환성 요구 사항을 충족하는지 확인하십시오. 필요한 경우 해당 [호환성 패키지](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)를 다운로드하고 [!DNL Experience Manager] 패키지 관리자를 사용하여 [!DNL Experience Manager] 관리자로 설치하십시오. 패키지를 설치하려면 [패키지를 사용하여 작업하는 방법](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/contentmanagement/package-manager)을 참조하세요.
 
 1. 설치 관리자 바이너리를 실행하고 화면의 지침에 따라 설치합니다.
 
@@ -82,7 +87,7 @@ ht-degree: 0%
    >
    >[!DNL Experience Manager] 서버의 주소 앞이나 뒤에 선행 또는 후행 공백이 없는지 확인하십시오. 그렇지 않으면 앱을 [!DNL Experience Manager] 서버에 연결할 수 없습니다.
 
-1. [선택 사항] **[!UICONTROL I want to connect a different way]**&#x200B;을(를) 클릭하고 **[!UICONTROL Adobe login]**&#x200B;을(를) 클릭하여 Adobe Identity Management 서비스(IMS)를 사용하여 Experience Manager Assets 서버에 로그온합니다. IMS 로그온을 사용하면 데스크탑 앱에서 액세스 토큰 새로 고침을 자동으로 수행하여 사용자가 최대 14일 동안 로그온한 상태를 유지할 수 있습니다. 사용자의 자격 증명을 사용하여 **[!UICONTROL Direct login]** 서버에 표준 로그온하려면 [!DNL Experience Manager]을(를) 클릭합니다.
+1. [선택 사항] **[!UICONTROL I want to connect a different way]**&#x200B;을(를) 클릭하고 **[!UICONTROL Adobe login]**&#x200B;을(를) 클릭하여 Adobe Identity Management 서비스(IMS)를 사용하여 Experience Manager Assets 서버에 로그온합니다. IMS 로그온을 사용하면 데스크탑 앱에서 액세스 토큰 새로 고침을 자동으로 수행하여 사용자가 최대 14일 동안 로그온한 상태를 유지할 수 있습니다. 사용자의 자격 증명을 사용하여 [!DNL Experience Manager] 서버에 표준 로그온하려면 **[!UICONTROL Direct login]**&#x200B;을(를) 클릭합니다.
 
    ![Adobe 로그인](assets/adobe-login.png)
 
@@ -92,7 +97,7 @@ ht-degree: 0%
 
    *그림: 로그인 후 응용 프로그램에서 DAM 내용을 표시합니다*
 
-1. ([!DNL Experience Manager] 6.5.1 이상) 데스크톱 앱을 [!DNL Experience Manager] 6.5.1 이상에서 사용하는 경우 S3 또는 Azure 커넥터를 버전 1.10.4 이상으로 업그레이드하십시오. [Azure 커넥터](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#azure-data-store) 또는 [S3 커넥터](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#amazon-s-data-store)를 참조하세요.
+1. ([!DNL Experience Manager] 6.5.1 이상) 데스크톱 앱을 [!DNL Experience Manager] 6.5.1 이상에서 사용하는 경우 S3 또는 Azure 커넥터를 버전 1.10.4 이상으로 업그레이드하십시오. [Azure 커넥터](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#azure-data-store) 또는 [S3 커넥터](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#amazon-s-data-store)를 참조하십시오.
 
    Adobe Managed Services(AMS) 고객인 경우 Adobe 고객 지원 센터에 문의하십시오.
 
@@ -154,7 +159,7 @@ Mac에서 애플리케이션을 제거하려면 다음 단계를 따르십시오
 
 1. 편집 내용이 손실되지 않도록 모든 변경 내용을 [!DNL Experience Manager]에 업로드하십시오. [에셋 편집 및 업데이트된 에셋 업로드 [!DNL Experience Manager]](upload-assets.md#edit-assets-upload-updated-assets)를 참조하십시오. 로그오프하고 앱을 [!UICONTROL Exit]합니다.
 
-1. `Adobe Experience Manager Desktop.app`에서 `/Applications`을(를) 제거합니다.
+1. `/Applications`에서 `Adobe Experience Manager Desktop.app`을(를) 제거합니다.
 
 또는 Mac에서 내부 애플리케이션 캐시를 지우고 앱을 제거하려면 터미널에서 다음 명령을 실행할 수 있습니다.
 
