@@ -3,11 +3,19 @@ title: 데스크탑 앱 v1.10 설치 및 구성
 description: ' [!DNL Assets] 서버에서 작동하도록  [!DNL Experience Manager] 데스크톱 앱 버전 1.10을 설치 및 구성하고 자산을 데스크톱에 드라이브로 탑재하도록 매핑합니다.'
 exl-id: 7f3bdfb1-d345-4e48-b020-6e06531f46f2
 TQID: https://experienceleague.adobe.com/q8HwCAJiC2BlVsKHHC-Pg6NrvQEuI4bfhPV6q4s9xBE
-product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
-subfeature_v2: id: a9d2a4a6-0a32-4f6e-8eb1-128ec2b18a80id: d18d21f5-ea10-400d-a1f0-a2071ad38419
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2:
+  - id: a9d2a4a6-0a32-4f6e-8eb1-128ec2b18a80
+  - id: d18d21f5-ea10-400d-a1f0-a2071ad38419
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
 workflow-type: tm+mt
 source-wordcount: 928
@@ -101,7 +109,7 @@ macOS X에서 유사한 디렉터리는 `~/Library/Group Containers/group.com.ad
 
 ### 캐시 관리를 위한 인앱 옵션 {#in-app-option-to-manage-cache}
 
-로컬 캐싱에 사용할 수 있는 디스크 공간의 크기를 제어할 수 있습니다. Assets 서버의 아티팩트는 보다 원활한 경험을 위해 로컬에 캐시됩니다. 요구 사항에 맞게 기본값을 변경할 수 있습니다. 또한 캐시를 지우면 모든 에셋을 새로 가져올 수 있습니다. 원하는 옵션을 설정하려면 응용 프로그램의 아이콘을 클릭하고 **[!UICONTROL Advanced]** > **[!UICONTROL Manage Cache]**&#x200B;을(를) 클릭합니다. ****
+로컬 캐싱에 사용할 수 있는 디스크 공간의 크기를 제어할 수 있습니다. Assets 서버의 아티팩트는 보다 원활한 경험을 위해 로컬에 캐시됩니다. 요구 사항에 맞게 기본값을 변경할 수 있습니다. 또한 캐시를 지우면 모든 에셋을 새로 가져올 수 있습니다. 원하는 옵션을 설정하려면 응용 프로그램의 아이콘을 클릭하고 **[!UICONTROL Advanced]** > **[!UICONTROL Manage Cache]**&#x200B;을(를) 클릭합니다. **&#x200B;**
 
 >[!NOTE]
 >
@@ -133,6 +141,6 @@ macOS X에서 유사한 디렉터리는 `~/Library/Group Containers/group.com.ad
 
 >[!MORELIKETHIS]
 >
->* [데스크톱 앱 소개 [!DNL Experience Manager] 2}를 시청하십시오(5분 43초).](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
+>* [데스크톱 앱 소개 [!DNL Experience Manager] 2&rbrace;를 시청하십시오(5분 43초).](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
 >* [사용 [!DNL Experience Manager] 데스크톱 앱](use-app-v1.md).
 >* [문제 해결 [!DNL Experience Manager] 데스크톱 앱](troubleshoot-app-v1.md).
