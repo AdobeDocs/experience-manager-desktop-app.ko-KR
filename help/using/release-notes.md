@@ -1,31 +1,42 @@
 ---
 title: '[!DNL Adobe Experience Manager] 데스크톱 앱 릴리스 노트'
-description: ' [!DNL Adobe Experience Manager] 데스크톱 앱에 대한 릴리스 정보, 개선 사항, 새로운 기능, 호환성 및 다운로드 링크.'
+description: '[!DNL Adobe Experience Manager] 데스크톱 앱에 대한 릴리스 세부 정보, 개선 사항, 새로운 기능, 호환성 및 다운로드 링크.'
 mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
 TQID: https://experienceleague.adobe.com/hS1Q5NPU2YnyxJQbp3vapxB3-CLqbBck58NEYv3JMnI
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
+    internal-label: Data management
+source-git-commit: d5e89df1c3930b5206efedadef064a2bf0838564
 workflow-type: tm+mt
-source-wordcount: 5259
-ht-degree: 5%
-
+source-wordcount: '5588'
+ht-degree: 4%
 ---
-
 # [!DNL Adobe Experience Manager] 데스크톱 앱 릴리스 노트 {#release-notes-v2}
 
-이 데스크탑 앱 버전 3.0.2 릴리스에는 애플리케이션의 전반적인 안정성과 성능을 개선하기 위한 버그 수정이 포함되어 있습니다.
+이번 데스크탑 앱 버전 3.0.3 릴리스에는 다음과 같은 개선 사항 및 버그 수정 사항이 포함되어 있습니다.
+
+**안정성 및 성능 향상**
+* [!DNL Experience Manager]에 대한 과도한 요청을 방지하기 위해 요청 처리가 개선되었습니다.
+* 매우 큰 에셋을 다운로드할 때의 안정성이 개선되었습니다.
+* 대형 파일로 작업할 때 macOS에서 데스크탑 앱이 충돌하거나 응답하지 않을 수 있는 문제를 해결했습니다.
 
 **지원되는 [!DNL Experience Manager] 버전**&#x200B;은(는) 다음과 같습니다.
 
@@ -43,6 +54,10 @@ AEM Desktop App 버전 2.3.1 이상 버전에서는 두 버전의 Windows Instal
 
 | 운영 체제 | [!DNL Experience Manager] as a [!DNL Cloud Service] | [!DNL Experience Manager] 6.x |
 |---|---|---|
+| macOS (v3.0.3) | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-x64-3.0.3-rebuild.1.dmg) | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-x64-3.0.3-rebuild.1.dmg) |
+| macOS Apple 실리콘(M1)(v3.0.3) | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-arm64-3.0.3-rebuild.1.dmg) | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-arm64-3.0.3-rebuild.1.dmg) |
+| Windows 64비트(v3.0.3) | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-3.0.3-rebuild.1.exe) | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-3.0.3-rebuild.1.exe) |
+| Windows 64비트 Enterprise(v3.0.3) | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-ent-3.0.3-rebuild.1.msi) | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-ent-3.0.3-rebuild.1.msi) |
 | macOS (v3.0.2) | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-x64-3.0.2.dmg) | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-x64-3.0.2.dmg) |
 | macOS Apple 실리콘(M1)(v3.0.2) | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-arm64-3.0.2.dmg) | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-arm64-3.0.2.dmg) |
 | Windows 64비트(v3.0.2) | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-3.0.2.exe) | [다운로드 링크](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-3.0.2.exe) |
@@ -107,7 +122,9 @@ AEM Desktop App 버전 2.3.1 이상 버전에서는 두 버전의 Windows Instal
 
 ## 새로운 기능, 개선 사항 및 버그 수정 {#what-is-new}
 
-자세한 내용은 [v3.0.2의 새로운 기능](introduction.md#whats-new-v2)을 참조하세요.
+### 앱 v3.0.2의 업데이트 {#app-version-3.0.2}
+
+이 데스크탑 앱 버전 3.0.2 릴리스에는 애플리케이션의 전반적인 안정성과 성능을 개선하기 위한 버그 수정이 포함되어 있습니다.
 
 ### 앱 v3.0.1의 업데이트 {#app-version-3.0.1}
 
@@ -291,17 +308,17 @@ AEM Desktop App 버전 2.3.1 이상 버전에서는 두 버전의 Windows Instal
 
 ## 앱 작동 방식에 대한 중요한 참고 사항 {#how-app-works}
 
-애플리케이션 및 애플리케이션 작동 방식에 대한 다음 내용을 알고 있어야 합니다.
+애플리케이션과 그 작동 방식에 대해 다음 사항을 이해하는 것이 중요합니다.
 
 * [!DNL Experience Manager]&#x200B;(으)로 에셋 바이너리를 완전히 전송해야 하는 작업에 대한 모든 권한을 응용 프로그램에서 제공합니다(**열기**, **편집**, **변경 내용 업로드** 및 **Assets 업로드**).
 
-   * 데스크탑에서 자산으로 작업하려면 개별적으로, 폴더로 또는 다중 선택을 통해 열기, 편집 또는 데스크탑으로 다운로드를 명시적으로 수행해야 합니다.
+  * 데스크탑에서 자산으로 작업하려면 개별적으로, 폴더로 또는 다중 선택을 통해 열기, 편집 또는 데스크탑으로 다운로드를 명시적으로 수행해야 합니다.
 
-   * [!DNL Experience Manager]에 업로드된 자산에 로컬 변경 내용을 가져오려면 개별적으로 또는 다중 선택을 통해 [!UICONTROL Upload Changes]을(를) 선택해야 합니다.
+  * [!DNL Experience Manager]에 업로드된 자산에 로컬 변경 내용을 가져오려면 개별적으로 또는 다중 선택을 통해 [!UICONTROL Upload Changes]을(를) 선택해야 합니다.
 
-   * 응용 프로그램이 데스크톱과 [!DNL Experience Manager]에서 자산을 동기화하는 &#39;동기화 클라이언트&#39;가 아닙니다.
+  * 응용 프로그램이 데스크톱과 [!DNL Experience Manager]에서 자산을 동기화하는 &#39;동기화 클라이언트&#39;가 아닙니다.
 
-   * 응용 프로그램에서 [!DNL Experience Manager] 리포지토리를 가상 폴더 구조로 매핑하는 네트워크 공유를 제공하지 않습니다.
+  * 응용 프로그램에서 [!DNL Experience Manager] 리포지토리를 가상 폴더 구조로 매핑하는 네트워크 공유를 제공하지 않습니다.
 
 * 애플리케이션에서 표시하는 에셋 목록은 Assets 저장소의 상태를 기반으로 합니다. 로컬로 다운로드한 후 로컬 파일 또는 캐시 폴더에서 이름을 변경한 파일은 애플리케이션에서 표시하거나 관리하지 않습니다.
 
@@ -325,7 +342,7 @@ AEM Desktop App 버전 2.3.1 이상 버전에서는 두 버전의 Windows Instal
 
 * 자산 업로드가 변경될 때 진행률 표시줄이 제대로 표시되지 않는 경우가 가끔 있습니다.
 
-* 필터를 적용하고 제거하여 로컬에서 편집한 모든 자산을 찾으면 사용자가 시작한 검색 결과 또는 폴더 보기로 앱에서 이동하지 않습니다. DAM 저장소의 루트 폴더를 앱에서 표시합니다.
+* 필터를 적용하고 제거하여 로컬에서 편집한 모든 자산을 찾으면 사용자가 시작한 검색 결과 또는 폴더 보기로 앱에서 이동하지 않습니다. 앱은 DAM 저장소의 루트 폴더를 표시합니다.
 
 * 실행 중인 [!DNL Experience Manager] 서버가 없는 URL에 연결하면 연결 화면이 응답하지 않는 경우가 가끔 있습니다. 애플리케이션을 종료하고 다시 시작합니다.
 
