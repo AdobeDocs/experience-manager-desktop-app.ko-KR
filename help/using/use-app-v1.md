@@ -1,26 +1,32 @@
 ---
-title: ' [!DNL Experience Manager] 데스크톱 앱 버전 1.10을 사용합니다.'
+title: '[!DNL Experience Manager] 데스크톱 앱 버전 1.10을 사용합니다.'
 description: Adobe Experience Manager 데스크탑 앱 버전 1.10을 사용하고 데스크탑의 에셋으로 작업을 최적화하는 방법을 알아봅니다.
 feature: Desktop App,Asset Management
 exl-id: 2fdc1c8d-b822-4cca-ad06-bd875a00aa6d
-TQID: https://experienceleague.adobe.com/zZCGcn6YTgFqjsadX6jzZCYDM1FvCzoHUhRpehiB-PY
+TQID: 'https://experienceleague.adobe.com/zZCGcn6YTgFqjsadX6jzZCYDM1FvCzoHUhRpehiB-PY'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+  - id: 7d2b2ec8-499c-5434-9ffd-9218cd71f683
+    internal-label: Asset Management
 subfeature_v2:
   - id: d18d21f5-ea10-400d-a1f0-a2071ad38419
+    internal-label: Desktop App
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
+    internal-label: Admin
+source-git-commit: 081955637ccc08fe7cad9fda87595a006d60166c
 workflow-type: tm+mt
-source-wordcount: 2358
+source-wordcount: '2359'
 ht-degree: 0%
-
 ---
-
 # [!DNL Experience Manager] 데스크톱 앱 v1.10 사용 {#use-aem-desktop-app-v1x}
 
 앱을 사용하면 로컬 데스크톱에서 [!DNL Experience Manager] 내의 자산에 쉽게 액세스할 수 있으며 모든 데스크톱 응용 프로그램에서 사용할 수 있습니다. Assets은 Mac Finder 또는 Windows 탐색기에서 쉽게 볼 수 있으며 데스크톱 응용 프로그램에서 열리고 로컬로 변경될 수 있습니다. 변경 사항은 리포지토리에 새 버전을 만들어 [!DNL Experience Manager]에 다시 저장됩니다.
@@ -29,7 +35,7 @@ ht-degree: 0%
 
 [!DNL Experience Manager] 데스크톱 앱 v1을 사용하여 수행하는 주요 작업은 다음과 같습니다.
 
-1. [&#x200B; [!DNL Experience Manager] 서버와 연결](#installandconnect)
+1. [ [!DNL Experience Manager] 서버와 연결](#installandconnect)
 1. [데스크탑 앱에서 바로 자산 열기](#openondesktop)
 1. [데스크탑 앱에서 자산 편집 및 체크아웃](#workonassets)
 1. [에셋 및 폴더 일괄 업로드](#bulkupload)
@@ -167,7 +173,7 @@ INDD(Adobe InDesign) 파일의 경우 상황에 맞는 메뉴에서 **[!UICONTRO
 
 [!DNL Experience Manager Assets]을(를) 사용하면 편집할 자산을 체크 아웃하고 변경 작업을 완료한 후 다시 체크 인할 수 있습니다. 에셋을 체크 아웃한 후에는 에셋만 편집, 주석 달기, 게시, 이동 또는 삭제할 수 있습니다. 에셋을 체크 아웃하면 에셋이 잠기고 다른 사용자가 이러한 작업을 수행하지 못합니다. 에셋을 체크아웃/체크인하려면 에셋에 대한 쓰기 액세스 권한이 필요합니다.
 
-[!DNL Experience Manager] 웹 인터페이스에서 자산을 체크 아웃하는 방법에는 두 가지가 있습니다. 첫 번째 메서드에 대한 자세한 내용은 [Assets UI에서 체크인 및 체크아웃 파일](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/assets/managing/check-out-and-submit-assets)을 참조하십시오. [!DNL Experience Manager] 데스크톱 앱이 설치되면 자산을 체크아웃하고 열려면 두 번째 방법에 대해 다음 단계를 따르십시오.
+[!DNL Experience Manager] 웹 인터페이스에서 자산을 체크 아웃하는 방법에는 두 가지가 있습니다. 첫 번째 메서드에 대한 자세한 내용은 [Assets UI에서 체크인 및 체크아웃 파일](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/managing/check-out-and-submit-assets)을 참조하십시오. [!DNL Experience Manager] 데스크톱 앱이 설치되면 자산을 체크아웃하고 열려면 두 번째 방법에 대해 다음 단계를 따르십시오.
 
 1. [!DNL Assets] 인터페이스를 열고 폴더 또는 자산 위에 포인터를 가져가면 카드 보기에서 바탕 화면 작업을 빠른 작업으로 표시할 수 있습니다.
 
