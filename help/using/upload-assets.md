@@ -1,22 +1,32 @@
 ---
-title: ' [!DNL Experience Manager] 데스크탑 앱을 사용하여 에셋 업로드'
-description: ' [!DNL Adobe Experience Manager] 데스크톱 앱을 사용하여 자산을 업로드합니다.'
+title: '[!DNL Experience Manager] 데스크톱 앱을 사용하여 자산 업로드'
+description: '[!DNL Adobe Experience Manager] 데스크톱 앱을 사용하여 자산을 업로드합니다.'
 feature: Desktop App,Asset Management
 exl-id: f082c712-dc04-4bed-bac8-fa78f93de1c7
-TQID: https://experienceleague.adobe.com/gqoBxhsZBCqUBHFVfQVzIHfoeNeoyIEQI-IjyQscpvQ
+TQID: 'https://experienceleague.adobe.com/gqoBxhsZBCqUBHFVfQVzIHfoeNeoyIEQI-IjyQscpvQ'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 7d2b2ec8-499c-5434-9ffd-9218cd71f683
+    internal-label: Asset Management
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+subfeature_v2:
+  - id: d18d21f5-ea10-400d-a1f0-a2071ad38419
+    internal-label: Desktop App
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
+    internal-label: Admin
+source-git-commit: 081955637ccc08fe7cad9fda87595a006d60166c
 workflow-type: tm+mt
-source-wordcount: 841
+source-wordcount: '843'
 ht-degree: 2%
-
 ---
-
 # 자산 업로드 {#upload-assets}
 
 에셋을 추가할 수 있는 권한이 있는 AEM Desktop App 사용자는 에셋(예: 이미지, 문서, 비디오 또는 기타 미디어)을 추가할 수 있습니다.
@@ -82,7 +92,7 @@ ht-degree: 2%
 
 ## 다음 단계 {#next-steps}
 
-* [Adobe Experience Manager 데스크탑 앱을 시작하려면 비디오 보기](https://experienceleague.adobe.com/ko/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
+* [Adobe Experience Manager 데스크탑 앱을 시작하려면 비디오 보기](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
 
 * 오른쪽 사이드바에서 사용 가능한 [!UICONTROL Edit this page] ![페이지 편집](assets/do-not-localize/edit-page.png) 또는 [!UICONTROL Log an issue] ![GitHub 문제 만들기](assets/do-not-localize/github-issue.png)를 사용하여 문서 피드백을 제공하십시오
 

@@ -1,24 +1,35 @@
 ---
-title: ' [!DNL Experience Manager] 데스크톱 앱 사용'
-description: ' [!DNL Adobe Experience Manager] 데스크톱 앱을 사용하여 Win 또는 Mac 데스크톱에서  [!DNL Adobe Experience Manager] DAM 자산을 사용하여 작업하고 다른 응용 프로그램에서 사용합니다.'
+title: '[!DNL Experience Manager] 데스크톱 앱 사용'
+description: '[!DNL Adobe Experience Manager] 데스크톱 앱을 사용하여 Win 또는 Mac 데스크톱에서 바로 [!DNL Adobe Experience Manager] DAM 자산을 사용하여 작업하고 다른 응용 프로그램에서 사용합니다.'
 feature: Desktop App,Asset Management
 exl-id: c8f57bdc-1465-401f-88b1-9107fcacceb5
-TQID: https://experienceleague.adobe.com/EDU6FDXK0AFeJECzOhmYJckrQDsbSNRxY02Rgg-ScrE
+TQID: 'https://experienceleague.adobe.com/EDU6FDXK0AFeJECzOhmYJckrQDsbSNRxY02Rgg-ScrE'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 7d2b2ec8-499c-5434-9ffd-9218cd71f683
+    internal-label: Asset Management
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+subfeature_v2:
+  - id: d18d21f5-ea10-400d-a1f0-a2071ad38419
+    internal-label: Desktop App
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
+    internal-label: Metadata
+source-git-commit: 081955637ccc08fe7cad9fda87595a006d60166c
 workflow-type: tm+mt
-source-wordcount: 1438
+source-wordcount: '1441'
 ht-degree: 1%
-
 ---
-
 # [!DNL AEM Desktop App]의 Assets 관리 작업 {#assets-management-tasks}
 
 에셋 관리에는 워크플로를 간소화하기 위해 디지털 에셋을 구성, 유지 관리 및 최적화하는 작업이 포함됩니다. 여기에는 파일 복제 및 이름 변경, 빠른 액세스를 위해 폴더 고정 또는 고정 해제, 다양한 레이아웃에서 에셋 보기 등의 작업이 포함됩니다. 이를 통해 효율성을 향상시키고, 자산 추적을 단순화하고, 플랫폼 간에 디지털 자산을 쉽게 검색하고 구성할 수 있습니다.
@@ -169,7 +180,7 @@ AEM 데스크탑 앱을 사용하면 새 폴더를 만드는 동안 메타데이
 
 ## 다음 단계 {#next-steps}
 
-* [Adobe Experience Manager 데스크탑 앱을 시작하려면 비디오 보기](https://experienceleague.adobe.com/ko/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
+* [Adobe Experience Manager 데스크탑 앱을 시작하려면 비디오 보기](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
 
 * 오른쪽 사이드바에서 사용 가능한 [!UICONTROL Edit this page] ![페이지 편집](assets/do-not-localize/edit-page.png) 또는 [!UICONTROL Log an issue] ![GitHub 문제 만들기](assets/do-not-localize/github-issue.png)를 사용하여 문서 피드백을 제공하십시오
 
